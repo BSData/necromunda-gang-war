@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="9" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="10" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4005,7 +4005,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9e5c-71d7-c815-a7b2" name="Overseer" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4024,7 +4028,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7d45-4a67-4f5a-aa43" name="Overwatch" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4043,7 +4051,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ff2d-a2c0-c6d7-23a8" name="Parry" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4062,7 +4074,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9db0-2aeb-2347-2129" name="Precision Shot" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4081,7 +4097,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa58-883f-902a-87c9" name="Rain of Blows" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4100,7 +4120,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e589-5457-3444-1216" name="Regroup" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4119,7 +4143,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fcc6-b79a-5aa5-0d5e" name="Savvy Trader" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4138,7 +4166,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="efd8-6c88-1712-a081" name="Spring Up" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4157,7 +4189,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1caf-b432-b6fb-b3e4" name="Step Aside" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4176,7 +4212,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9a0c-a787-925a-4728" name="Trick Shot" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4195,7 +4235,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -8036,6 +8080,414 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes ranged attacks, they do not suffer a penalty to the hit roll for the target being Engaged or in Partial Cover. In addtion, if the target is in Full Cover, they suffer a -1 penalty instead of -2."/>
+      </characteristics>
+    </profile>
+    <profile id="f65c-a469-5ef1-c6d7" name="Bolt pistol" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="6&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="12&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Pistol"/>
+      </characteristics>
+    </profile>
+    <profile id="62bb-1539-c5b3-6546" name="Hand flamer" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Template"/>
+      </characteristics>
+    </profile>
+    <profile id="85e0-8887-48ad-85a2" name="Sawn-off shotgun" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="4&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="8&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Plentful, Scattershot"/>
+      </characteristics>
+    </profile>
+    <profile id="e034-bf12-a1a7-180d" name="Blasting charges" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx2"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (5&quot;), Grenade, Knockback"/>
+      </characteristics>
+    </profile>
+    <profile id="be6d-476e-9547-2b99" name="Photon flash flare" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx3"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="-"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (5&quot;), Flash, Grenade"/>
+      </characteristics>
+    </profile>
+    <profile id="fbbc-9d33-a330-6c4f" name="Scare gas grenade" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx3"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="-"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (3&quot;) Fear, Gas, Grenade"/>
+      </characteristics>
+    </profile>
+    <profile id="fade-e0d7-ebd0-1091" name="Smoke bomb" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx3"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="-"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Grenade, Smoke"/>
+      </characteristics>
+    </profile>
+    <profile id="256e-f8f4-a4a7-2e93" name="Flamer" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Template"/>
+      </characteristics>
+    </profile>
+    <profile id="94d5-9f2d-d9da-3404" name="Meltagun" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="6&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="12&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="8"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-4"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melta, Scarce"/>
+      </characteristics>
+    </profile>
+    <profile id="be9c-9467-713c-ba3e" name="Harpoon launcher" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="6&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="18&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-3"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Drag, Impale, Scarce"/>
+      </characteristics>
+    </profile>
+    <profile id="8597-d802-88e3-d8a1" name="Heavy flamer" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Template"/>
+      </characteristics>
+    </profile>
+    <profile id="0dc2-c64b-573a-5100" name="Heavy stubber" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="20&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="40&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (2), Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="3937-d9d1-ad41-f059" name="Multi-melta" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="8"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-4"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (3&quot;), Melta, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="141b-fbf4-82eb-7382" name="Plasma gun - Low power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (1), Scarce"/>
+      </characteristics>
+    </profile>
+    <profile id="6b82-c8df-7a3a-657b" name="Plasma gun - Maxmal power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="7"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Scarce, Unstable"/>
+      </characteristics>
+    </profile>
+    <profile id="cb05-7cfa-cd6c-3f07" name="Plasma cannon - Low power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="36&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="6"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (1), Scarce, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="8d88-e321-800d-8db2" name="Plasma cannon - Maxmal power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="36&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="8"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (3&quot;), Scarce, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="2a8a-26d9-17df-d7ea" name="Chainsword" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Parry Rending"/>
+      </characteristics>
+    </profile>
+    <profile id="81c2-e190-5a15-1bf1" name="Maul" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="5dda-b8e5-20af-3536" name="Power axe" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Disarm, Melee, Power"/>
+      </characteristics>
+    </profile>
+    <profile id="742a-f345-fc5b-b6ae" name="Power knife" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Backstab, Melee, Power"/>
+      </characteristics>
+    </profile>
+    <profile id="b57d-332c-fdf6-35b9" name="Servo-claw" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="32bb-1d3b-4133-efe9" name="Two-handed axe" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="3a80-bd37-0d28-c35e" name="Two-handed hammer" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Knockback Melee, Unwieldy"/>
       </characteristics>
     </profile>
   </sharedProfiles>
