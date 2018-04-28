@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="10" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="11" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6520,7 +6520,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="9&quot;"/>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="8&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
@@ -6544,7 +6544,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
-        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="3+"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Knockback, Rapid Fire (1)"/>
       </characteristics>
     </profile>
@@ -6578,7 +6578,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
-        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="3+"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Pistol, Rapid Fire (1)"/>
       </characteristics>
     </profile>
@@ -6622,7 +6622,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="16&quot;"/>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
@@ -6641,11 +6641,11 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <characteristics>
         <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="9&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="18&quot;"/>
-        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
-        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Scarce, Toxin"/>
       </characteristics>
@@ -6760,7 +6760,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <characteristics>
         <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="8&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="12&quot;"/>
-        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
         <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
@@ -6983,7 +6983,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="3&quot;"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
@@ -7664,7 +7664,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
@@ -7898,7 +7898,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Lasting Injury" characteristicTypeId="e0ba-3c9b-0857-d86b" value="The fighter is killed instantly - not even a visit to the Doc can save them. If the injury was caused by an attack, the attacker gains one additional Experience."/>
       </characteristics>
     </profile>
-    <profile id="b932-9748-d9b3-22a5" name="Stiletto Sword" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+    <profile id="b932-9748-d9b3-22a5" name="Stiletto sword" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7976,7 +7976,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="+1"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
@@ -8130,7 +8130,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
-        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Plentful, Scattershot"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Plentiful, Scattershot"/>
       </characteristics>
     </profile>
     <profile id="e034-bf12-a1a7-180d" name="Blasting charges" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
@@ -8397,7 +8397,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
-        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
         <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
