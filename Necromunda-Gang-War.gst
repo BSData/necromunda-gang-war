@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="8" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="12" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1138,11 +1138,11 @@
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8640-ca96-02d4-733e" name="Nerve of Steel" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8640-ca96-02d4-733e" name="Nerves of Steel" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="81e9-ebb4-4b6e-a760" name="Nerve of Steel" hidden="false" targetId="1938-0fe3-4ed4-51e1" type="profile">
+        <infoLink id="81e9-ebb4-4b6e-a760" name="Nerves of Steel" hidden="false" targetId="1938-0fe3-4ed4-51e1" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1184,7 +1184,7 @@
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb1a-54e0-ac01-2281" name="Unustoppable" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fb1a-54e0-ac01-2281" name="Unstoppable" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1340,7 +1340,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="5596-7d2b-0234-0781" name="Shotgun, Scatter Shell" hidden="false" targetId="0061-92fd-2fee-c4e2" type="profile">
+        <infoLink id="5596-7d2b-0234-0781" name="Shotgun - Scatter shell" hidden="false" targetId="0061-92fd-2fee-c4e2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3985,6 +3985,461 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="5.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa3b-2ddb-f2be-a6c6" name="Munitioneer" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="45ea-0b05-47a6-b1ff" name="Munitioneer" hidden="false" targetId="427d-9463-cb3b-708c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e5c-71d7-c815-a7b2" name="Overseer" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6032-27d3-3ac6-ff1c" name="Overseer" hidden="false" targetId="3511-b795-a187-45f1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d45-4a67-4f5a-aa43" name="Overwatch" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b0ae-10af-d4c4-1faf" name="Overwatch" hidden="false" targetId="b10f-8c11-866c-f2af" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff2d-a2c0-c6d7-23a8" name="Parry" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0fa2-e6a2-42e0-d5e2" name="Parry" hidden="false" targetId="821f-be8b-2ca6-9301" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9db0-2aeb-2347-2129" name="Precision Shot" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="df03-16e0-a218-cf8d" name="Precision Shot" hidden="false" targetId="7149-15d3-3078-7495" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa58-883f-902a-87c9" name="Rain of Blows" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ab31-564e-a8fe-d972" name="Rain of Blows" hidden="false" targetId="08b9-bdbe-4047-0814" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e589-5457-3444-1216" name="Regroup" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0ecd-59bf-43f2-c742" name="Regroup" hidden="false" targetId="b973-4a28-1fed-b3e1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fcc6-b79a-5aa5-0d5e" name="Savvy Trader" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f42b-f972-708d-0af4" name="Savvy Trader" hidden="false" targetId="b72d-43c1-5ad7-9c71" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efd8-6c88-1712-a081" name="Spring Up" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6b03-f5aa-bb37-ef51" name="Spring Up" hidden="false" targetId="cba1-ced2-1ade-43fc" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1caf-b432-b6fb-b3e4" name="Step Aside" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ad6a-c153-602d-4ad0" name="Step Aside" hidden="false" targetId="6926-f925-a6b1-70d0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a0c-a787-925a-4728" name="Trick Shot" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9b26-8f10-377e-4917" name="Trick Shot" hidden="false" targetId="6fe6-2f51-0807-bffa" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e2c-a8f6-bc2e-dce6" name="Sawn-off Shotgun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="26b1-f892-2a66-6282" name="Sawn-off shotgun" hidden="false" targetId="85e0-8887-48ad-85a2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a5e6-82e4-690f-da55" name="Plentiful" hidden="false" targetId="c823-a12f-6b9f-635c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f38-a5bf-fa61-95de" name="Scattershot" hidden="false" targetId="21c5-b8c6-226c-d610" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="306d-e01a-0fda-9729" name="Basic Weapon Upgrades" hidden="false" targetId="f80c-509b-3e97-ce33" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3c9-d9fa-931b-c3e3" name="Servo-claw" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="99f8-3274-383d-4fd6" name="Servo-claw" hidden="false" targetId="b57d-332c-fdf6-35b9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="86f1-d84c-06b3-64a0" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7776-7a78-f9e6-9719" name="Harpoon Launcher" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2590-ffc0-4ea6-5779" name="Harpoon launcher" hidden="false" targetId="be9c-9467-713c-ba3e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0c98-452d-5ef5-d523" name="Scarce" hidden="false" targetId="0f02-895e-cecd-79d2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c418-1c34-f8ec-b824" name="Drag" hidden="false" targetId="2847-bc54-4f69-5577" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="60a5-d3c6-9a99-ea12" name="Impale" hidden="false" targetId="ba33-83b1-1744-7b4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="252c-f77d-f5ca-4590" name="Heavy Weapon Upgrades" hidden="false" targetId="1bb3-418d-16df-d5ea" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8476-a406-07f8-35e6" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e673-d817-072d-7302" name="Heavy Stubber" hidden="false" targetId="0dc2-c64b-573a-5100" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="684a-d817-61bb-6095" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="128f-7a6c-33ef-0e44" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e41a-afc5-6b2a-2a9c" name="Heavy Weapon Upgrades" hidden="false" targetId="1bb3-418d-16df-d5ea" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10c5-3497-b5c4-375c" name="Blasting Charges" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4d01-0ffd-4b17-963f" name="Blasting Charges" hidden="false" targetId="e034-bf12-a1a7-180d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4820-fae1-bdae-1bfc" name="Blast (3&quot;/5&quot;)" hidden="false" targetId="d061-7ff0-8cb0-08eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2450-ca82-c62c-802c" name="Grenade" hidden="false" targetId="ed09-eee4-c760-4e4f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c374-e3f6-b426-7cb8" name="Knockback" hidden="false" targetId="6f45-fb3d-aa2a-c502" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="45.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4036,6 +4491,26 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91cc-a6c7-54e5-1197" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2e31-1b90-fb79-4735" name="Overseer" hidden="false" targetId="9e5c-71d7-c815-a7b2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf1-9f9e-29f9-1b02" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bbc6-18ad-2106-a689" name="Regroup" hidden="false" targetId="e589-5457-3444-1216" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="272c-6074-5552-38bd" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -4101,6 +4576,16 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="fcc0-10cf-e057-0a7f" name="Overwatch" hidden="false" targetId="7d45-4a67-4f5a-aa43" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ea5-1486-4b9d-11f7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="80af-190c-66a8-5752" name="Savant Skills" hidden="false" collective="false">
@@ -4153,6 +4638,26 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="c41d-5974-a874-72cb" name="Munitioneer" hidden="false" targetId="fa3b-2ddb-f2be-a6c6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="307a-0288-79ad-a0b5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0829-9f7b-eb82-5837" name="Savvy Trader" hidden="false" targetId="fcc6-b79a-5aa5-0d5e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe0-a891-bc8d-3d27" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="098e-032a-96df-90c7" name="Ferocity Skills" hidden="false" collective="false">
@@ -4192,6 +4697,36 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1f-c702-120b-13a6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c4a8-f594-c4d9-d38b" name="Nerves of Steel" hidden="false" targetId="8640-ca96-02d4-733e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b61d-3759-5cf4-c5aa" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6b30-188a-ff94-a559" name="True Grit" hidden="false" targetId="12cc-18e7-099b-6613" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8679-866a-d874-368e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0965-67ce-f929-0451" name="Unstoppable" hidden="false" targetId="fb1a-54e0-ac01-2281" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d1-c7ca-af90-e50c" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -4319,6 +4854,26 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="2959-290f-77b6-2ad7" name="Sprint" hidden="false" targetId="d76d-8396-d4b6-38b2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2dc-ccd2-a5ed-5dfd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f954-5c66-1a14-1eb8" name="Spring Up" hidden="false" targetId="efd8-6c88-1712-a081" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6f4-5c35-41bb-9abe" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a8f1-c99d-283d-91ce" name="Combat Skills" hidden="false" collective="false">
@@ -4358,6 +4913,36 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4813-5280-5df2-cb5c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6d47-dc78-e159-f42d" name="Parry" hidden="false" targetId="ff2d-a2c0-c6d7-23a8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5993-a7fa-4d77-6346" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b0a1-f85f-8b11-45ae" name="Step Aside" hidden="false" targetId="1caf-b432-b6fb-b3e4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb3d-2f0f-7452-ad64" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="438a-07c0-fdb9-8013" name="Rain of Blows" hidden="false" targetId="fa58-883f-902a-87c9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c232-fce6-272d-14db" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -4410,6 +4995,26 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5c0-4127-8a67-ca61" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="db2a-f201-3c14-d03f" name="Precision Shot" hidden="false" targetId="9db0-2aeb-2347-2129" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c95f-03ce-eef9-1f78" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="79fa-1a63-f088-5d04" name="Trick Shot" hidden="false" targetId="9a0c-a787-925a-4728" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db00-372a-2790-05f7" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -6108,6 +6713,20 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <modifiers/>
       <description>Mesh armour grants a 5+ save roll.</description>
     </rule>
+    <rule id="2847-bc54-4f69-5577" name="Drag" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a fghter is hit by a Drag weapon but not taken Out of Action, the attacker can attempt to drag the target closer after the attack has been resolved. If they do, roll a D6. If the score is equal to or higher than the target&apos;s Strength, the target is dragged D3&quot; straight towards the attacker, stopping if they hit any terrain. If they move into another fighter (other than the attacker), both fighters are moved the remaining distance towards the attacker. If the weapon also has the Impale special rule and hits more than one fighter, only the last fighter to be hit can be dragged.</description>
+    </rule>
+    <rule id="ba33-83b1-1744-7b4b" name="Impale" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If an attack made by this weapon hits and wounds the target, and the save roll is unsuccessful (or no save roll is made), the projectile continues through them and might hit another fighter! Trace a straight line from the target, directly away from the attacker. If there are any fighters wthin 1&quot; of this line, and within the weapon&apos;s Long Range, the one that is closest to the target is at risk of being hit. Roll a D6 - on a 3 or more, resolve the weapon&apos;s attack against that fighter, subtracting 1 from the Strength. The projectile can continue through multiple fighters in this way, but if the Strength is reduced to 0, it cannot hit any more fighters.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1a80-d178-edce-82fd" name="Autogun" book="" page="69" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
@@ -6116,7 +6735,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="9&quot;"/>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="8&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
@@ -6140,7 +6759,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
-        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="3+"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Knockback, Rapid Fire (1)"/>
       </characteristics>
     </profile>
@@ -6174,7 +6793,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
-        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="3+"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Pistol, Rapid Fire (1)"/>
       </characteristics>
     </profile>
@@ -6218,7 +6837,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="16&quot;"/>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
@@ -6237,11 +6856,11 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <characteristics>
         <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="9&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="18&quot;"/>
-        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
-        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Scarce, Toxin"/>
       </characteristics>
@@ -6356,7 +6975,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <characteristics>
         <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="8&quot;"/>
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="12&quot;"/>
-        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
         <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
@@ -6579,7 +7198,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="3&quot;"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
@@ -6662,7 +7281,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If an enemy makes a Charge action that targets this fighter, they must make a Cool check before moving. If the check is failed, they cannot move and their action ends immediately."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If an enemy makes a Charge action that targets this fighter, they must make a Willpower check before moving. If the check is failed, they cannot move and their action ends immediately."/>
       </characteristics>
     </profile>
     <profile id="1938-0fe3-4ed4-51e1" name="Nerves of Steel" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6680,7 +7299,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When making an Injury roll for the fighter, roll one less injury dice (for example, a Damage 2 weapon would roll one dice). Against attacks with Damage 1, roll two dice – the player controlling the fighter with True Grit can then choose to discard one before resolving the dice effects."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When making an Injury roll for the fighter, roll one less Injury dice (for example, a Damage 2 weapon would roll one dice). Against attacks with Damage 1, roll two dice – the player controlling the fighter with True Grit can then choose to discard one before resolving the dice effects."/>
       </characteristics>
     </profile>
     <profile id="4f74-1c37-0870-4d50" name="Unstoppable" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6689,7 +7308,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter has one or more Flesh Wounds in the Recovery phase, before making Recovery tests, roll a D6. On a 6, one of their Flesh Wounds is discarded."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Before making a Recovery check for this fighter in the End phase, roll a D6. On a resut of 4 or more, one Flesh Wound they have suffered is discarded. If they do not have any Flesh Wounds and the result is 4 or more, roll one additional dice for their Recovery check."/>
       </characteristics>
     </profile>
     <profile id="8cb4-67e3-acba-79c0" name="Rally" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6725,7 +7344,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When the fighter makes Reaction attacks in close combat, they roll one additional Attack dice for each of the attacker’s attacks that failed to hit (whether they missed, they were parried, etc)."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes Reaction attacks in close combat, they roll one additional Attack dice for each of the attacker’s attacks that failed to hit (whether they missed, they were parried, etc)."/>
       </characteristics>
     </profile>
     <profile id="3b45-6ca0-24dd-c97f" name="Disarm" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6797,7 +7416,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Add 1 to the result of any Bottle rolls while the Leader is on the battlefield and not Seriously Injured."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Subtract 1 from the result of any Bottle rolls while this fighter is on the battlefield and not Seriously Injured."/>
       </characteristics>
     </profile>
     <profile id="2cb1-b24c-2d24-dda8" name="Backstab" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6815,7 +7434,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes an Aim action, make an intelligence check for them. If it passes, they gain an additional +1 modifier to their hit roll."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes an Aim action, make an Intelligence check for them. If it passes, they gain an additional +1 modifier to their hit roll."/>
       </characteristics>
     </profile>
     <profile id="78c2-14c3-f99c-44d8" name="Berserker" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6833,7 +7452,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter falls or jumps down from a ledge, they count as having moved half the vertical distance. In addition, if they are not Seriously Injured or taken Out of Action by a fall, make an initiative test for them - if it is passed, they remain standing rather than being Pinned."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter falls or jumps down from a ledge, they count as having moved half the vertical distance. In addition, if they are not Seriously Injured or taken Out of Action by a fall, make an Initiative test for them - if it is passed, they remain standing rather than being Pinned."/>
       </characteristics>
     </profile>
     <profile id="204a-5f72-ec96-cf2d" name="Clamber" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6851,7 +7470,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="the fighter never suffers penalties to their hit rolls for interference and can always grant assists regardless of how many enemy fighters they are engaged with."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The fighter never suffers penalties to their hit rolls for interference and can always grant assists regardless of how many enemy fighters they are engaged with."/>
       </characteristics>
     </profile>
     <profile id="0a6b-8af5-51fd-0be2" name="Connected" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6860,7 +7479,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The fighter can make a Seek Rare Item action on the past-battle sequence (Pg. 22) in addition to any other actions they make (meaning they could even make two Seek Rare Item actions). They cannot do this is they are not able to make any actions."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The fighter can make a Seek Rare Item action on the past-battle sequence (Pg. 22) in addition to any other actions they make (meaning they could even make two Seek Rare Item actions). They cannot do this if they are not able to make any actions."/>
       </characteristics>
     </profile>
     <profile id="ccb4-367b-1348-cb3e" name="Escape Artist" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6869,7 +7488,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes a Retreat action, add 2 to the result of the initiative check (a natural 1 still fails). in addition, if this fighter is Captured at the end of a battle, roll a D6. On a result of 2 or more, they slip away and are not captured."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes a Retreat action, add 2 to the result of the initiative check (a natural 1 still fails). in addition, if this fighter is Captured at the end of a battle, roll a D6. On a result of 2 or more, they slip away and are not Captured."/>
       </characteristics>
     </profile>
     <profile id="3617-4bc3-1427-93db" name="Evade" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6878,7 +7497,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If an enemy targets this fighter with a ranged attack, and this figher is Active and not in Partial cover of Full cove, there is an additional -1 modifier to the hit roll, or a -2 modifier if they are Long range."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If an enemy targets this fighter with a ranged attack, and this figher is Active and not in Partial cover of Full cover, there is an additional -1 modifier to the hit roll, or a -2 modifier if they are Long range."/>
       </characteristics>
     </profile>
     <profile id="2e75-809d-4c05-7fb7" name="Fast Shot" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6896,7 +7515,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="In the Gain Rewards step of the post-battle sequence, as long as this fighter is not captured or in recovery, they gang earns an additional D3x10 credits. Note that they do not need to have taken part in the battle."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="In the Gain Rewards step of the post-battle sequence, as long as this fighter is not Captured or In Recovery, their gang earns an additional D3x10 credits. Note that they do not need to have taken part in the battle."/>
       </characteristics>
     </profile>
     <profile id="f585-ee67-7ed5-79c2" name="Headbutt" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6905,7 +7524,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter is Engaged, they can make the following action: Headbutt (Basic) - Pick an engaged enemy fighter and roll two D6. If either result is equal to or higher than their Toughness, they suffer a hit with a Strength equal to this fighers Strength + 2, resolved at Damage 2. However, if both dice score lower than the enemy fighter&apos;s Toughness, this figher instead suffers a hit equal to their own Strength."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter is Engaged, they can make the following action: Headbutt (Basic) - Pick an engaged enemy fighter and roll two D6. If either result is equal to or higher than their Toughness, they suffer a hit with a Strength equal to this fighter&apos;s Strength + 2, resolved at Damage 2. However, if both dice score lower than the enemy fighter&apos;s Toughness, this figher instead suffers a hit equal to their own Strength."/>
       </characteristics>
     </profile>
     <profile id="819d-d4ea-e9e9-8110" name="Hip Shooting" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6923,7 +7542,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter is Active or Engaged, they can make the following action: Throw Opponent (Basic) - Pick an Engaged enemy fighter or a Seriously Injured enemy fighterin base contact. If that fighter is standing, the opposing player can make an Initiative check for them, if this is failed, or the enemy figher is Seriously Injured, the enemy figher is hurled. Pick a direction, the move the enemy fighter D3&quot; in that direction - if they were standing, they are Pinned after moving. If they hit a standing figher or peiece of terrain (other than a low obstruction), they stop moving and suffer a Strength 3 hit. If they hit another fighter, that fighter also suffers a Strength 3 hit and is Pinned."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter is Active or Engaged, they can make the following action: Throw Opponent (Basic) - Pick an Engaged enemy fighter or a Seriously Injured enemy fighter in base contact. If that fighter is standing, the opposing player can make an Initiative check for them; if this is failed, or the enemy fighter is Seriously Injured, the enemy fighter is hurled. Pick a direction, then move the enemy fighter D3&quot; in that direction - if they were standing, they are Pinned after moving. If they hit a standing figher or piece of terrain (other than a low obstruction), they stop moving and suffer a Strength 3 hit. If they hit another fighter, that fighter also suffers a Strength 3 hit and is Pinned."/>
       </characteristics>
     </profile>
     <profile id="98c0-8bfb-2604-bf12" name="Impetuous" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6950,7 +7569,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If a friendly fighter within 6&quot; of this fighter failed a Cool check, make a Leadership check for this figher. If it passes, the Cool check is also treated as having passed."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If a friendly fighter within 6&quot; of this fighter failed a Cool check, make a Leadership check for this fighter. If it passes, the Cool check is also treated as having passed."/>
       </characteristics>
     </profile>
     <profile id="8fbb-0062-1ec9-ab3e" name="Iron Jaw" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -6995,7 +7614,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="A fighter can attempt to leap (Pg. 10) across gaps that are no wider than their movement characteristic. If the gap is wider than half their Movement characteristic, the Initiative test has a -1 modifier."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="A fighter can attempt to leap (Pg. 10) across gaps that are no wider than their Movement characteristic. If the gap is wider than half their Movement characteristic, the Initiative test has a -1 modifier."/>
       </characteristics>
     </profile>
     <profile id="fda3-d465-a80c-6492" name="Chem-pit" hidden="false" profileTypeId="3bc4-bab6-bfcc-790b" profileTypeName="Territory">
@@ -7260,7 +7879,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
@@ -7494,7 +8113,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Lasting Injury" characteristicTypeId="e0ba-3c9b-0857-d86b" value="The fighter is killed instantly - not even a visit to the Doc can save them. If the injury was caused by an attack, the attacker gains one additional Experience."/>
       </characteristics>
     </profile>
-    <profile id="b932-9748-d9b3-22a5" name="Stiletto Sword" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+    <profile id="b932-9748-d9b3-22a5" name="Stiletto sword" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7572,11 +8191,518 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
         <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
         <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="+1"/>
-        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Entangle, Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="427d-9463-cb3b-708c" name="Munitioneer" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Whenever an Ammo check is failed for this fighter, or another fighter from the same gang within 6&quot;, it can be re-rolled."/>
+      </characteristics>
+    </profile>
+    <profile id="3511-b795-a187-45f1" name="Overseer" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter is Active, they can attempt to make the following action: Order (Double) - Pick a friendly fighter within 12&quot;. That fighter can immediately make two actions as though it were their turn, even if they are not Ready. If they are Ready, these actions do not remove their Ready status."/>
+      </characteristics>
+    </profile>
+    <profile id="b10f-8c11-866c-f2af" name="Overwatch" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If this fighter is Active and Readied, they can interrupt a visible enemy fighter&apos;s action as soon as it is declared but before it is carried out. This fighter loses ther Ready marker, then immediately makes a Shoot action, targeting the enemy fighter whose action has been declared. If the enemy is Pinned or Seriously Injured, their turn ends immediately - their action is not made."/>
+      </characteristics>
+    </profile>
+    <profile id="821f-be8b-2ca6-9301" name="Parry" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The fighter can parry attacks as though they were carrying a weapon with the Parry trait. If they already have one or more weapons wth ths trait, they can parry one additional attack."/>
+      </characteristics>
+    </profile>
+    <profile id="7149-15d3-3078-7495" name="Precision Shot" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the hit roll for a ranged attack made by the fighter is a natural 6 (when using a weapon that does not have the Blast trait), the shot hits an exposed area and the opponent cannot make an armour save."/>
+      </characteristics>
+    </profile>
+    <profile id="08b9-bdbe-4047-0814" name="Rain of Blows" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="This fighter treats the Fight action as Simple rather than Basic."/>
+      </characteristics>
+    </profile>
+    <profile id="b973-4a28-1fed-b3e1" name="Regroup" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If this fighter is Active at the end of their turn, make a Leadership check for them. If it passes, each friendly Broken fighter within 6&quot; recovers from being Broken."/>
+      </characteristics>
+    </profile>
+    <profile id="b72d-43c1-5ad7-9c71" name="Savvy Trader" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes a Trade action in the post-battle sequence, add 1 to the result of the roll to see whether the item is available and reduce the cost of the item by 20 credits (to a minimum of 10)."/>
+      </characteristics>
+    </profile>
+    <profile id="cba1-ced2-1ade-43fc" name="Spring Up" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If this fighter is Pinned when they are activated, make an Initiative check for them. If the check is passed, the fighter can make a free Stand Up action."/>
+      </characteristics>
+    </profile>
+    <profile id="6926-f925-a6b1-70d0" name="Step Aside" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter is hit in close combat, the fighter can attempt to step aside. Make an Initiative check for them. If the check is passed, the attack misses. This skill can only be used once per enemy in each round of close combat - in other words, if an enemy makes more than one attack, the fighter can only attempt to step aside from one of them."/>
+      </characteristics>
+    </profile>
+    <profile id="6fe6-2f51-0807-bffa" name="Trick Shot" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When this fighter makes ranged attacks, they do not suffer a penalty to the hit roll for the target being Engaged or in Partial Cover. In addtion, if the target is in Full Cover, they suffer a -1 penalty instead of -2."/>
+      </characteristics>
+    </profile>
+    <profile id="f65c-a469-5ef1-c6d7" name="Bolt pistol" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="6&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="12&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Pistol"/>
+      </characteristics>
+    </profile>
+    <profile id="62bb-1539-c5b3-6546" name="Hand flamer" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Template"/>
+      </characteristics>
+    </profile>
+    <profile id="85e0-8887-48ad-85a2" name="Sawn-off shotgun" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="4&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="8&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Plentiful, Scattershot"/>
+      </characteristics>
+    </profile>
+    <profile id="e034-bf12-a1a7-180d" name="Blasting charges" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx2"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (5&quot;), Grenade, Knockback"/>
+      </characteristics>
+    </profile>
+    <profile id="be6d-476e-9547-2b99" name="Photon flash flare" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx3"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="-"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (5&quot;), Flash, Grenade"/>
+      </characteristics>
+    </profile>
+    <profile id="fbbc-9d33-a330-6c4f" name="Scare gas grenade" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx3"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="-"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (3&quot;) Fear, Gas, Grenade"/>
+      </characteristics>
+    </profile>
+    <profile id="fade-e0d7-ebd0-1091" name="Smoke bomb" book="Gang War 2" page="30" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx3"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="-"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Grenade, Smoke"/>
+      </characteristics>
+    </profile>
+    <profile id="256e-f8f4-a4a7-2e93" name="Flamer" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Template"/>
+      </characteristics>
+    </profile>
+    <profile id="94d5-9f2d-d9da-3404" name="Meltagun" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="6&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="12&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="8"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-4"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melta, Scarce"/>
+      </characteristics>
+    </profile>
+    <profile id="be9c-9467-713c-ba3e" name="Harpoon launcher" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="6&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="18&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-3"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Drag, Impale, Scarce"/>
+      </characteristics>
+    </profile>
+    <profile id="8597-d802-88e3-d8a1" name="Heavy flamer" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Template"/>
+      </characteristics>
+    </profile>
+    <profile id="0dc2-c64b-573a-5100" name="Heavy stubber" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="20&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="40&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (2), Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="3937-d9d1-ad41-f059" name="Multi-melta" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="8"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-4"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (3&quot;), Melta, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="141b-fbf4-82eb-7382" name="Plasma gun - Low power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+2"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (1), Scarce"/>
+      </characteristics>
+    </profile>
+    <profile id="6b82-c8df-7a3a-657b" name="Plasma gun - Maxmal power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="7"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Scarce, Unstable"/>
+      </characteristics>
+    </profile>
+    <profile id="cb05-7cfa-cd6c-3f07" name="Plasma cannon - Low power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="36&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="6"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (1), Scarce, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="8d88-e321-800d-8db2" name="Plasma cannon - Maxmal power" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="36&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="8"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blast (3&quot;), Scarce, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="2a8a-26d9-17df-d7ea" name="Chainsword" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Parry Rending"/>
+      </characteristics>
+    </profile>
+    <profile id="81c2-e190-5a15-1bf1" name="Maul" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="5dda-b8e5-20af-3536" name="Power axe" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Disarm, Melee, Power"/>
+      </characteristics>
+    </profile>
+    <profile id="742a-f345-fc5b-b6ae" name="Power knife" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Backstab, Melee, Power"/>
+      </characteristics>
+    </profile>
+    <profile id="b57d-332c-fdf6-35b9" name="Servo-claw" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="32bb-1d3b-4133-efe9" name="Two-handed axe" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="3a80-bd37-0d28-c35e" name="Two-handed hammer" book="Gang War 2" page="31" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Knockback Melee, Unwieldy"/>
       </characteristics>
     </profile>
   </sharedProfiles>

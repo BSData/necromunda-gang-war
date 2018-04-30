@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36c0-7282-11b3-d77e" name="Escher" revision="11" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36c0-7282-11b3-d77e" name="Escher" revision="12" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1961,7 +1961,7 @@
           <entryLinks/>
           <costs>
             <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
-            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="1.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
             <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
           </costs>
         </selectionEntry>
