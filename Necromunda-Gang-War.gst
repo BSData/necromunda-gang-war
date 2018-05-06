@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="16" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="17" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5359,6 +5359,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6d7-a6b2-411f-f3ab" name="Cult Icon" hidden="false" collective="false" type="upgrade">
@@ -5380,6 +5382,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="40.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0fa0-3032-ed27-5c36" name="Extra Arm" hidden="false" collective="false" type="upgrade">
@@ -5401,6 +5405,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="86c3-829c-98dd-dfe7" name="Power Maul" hidden="false" collective="false" type="upgrade">
@@ -5435,6 +5441,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="30.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09b2-1d09-c386-c808" name="Heavy Rock Cutter" hidden="false" collective="false" type="upgrade">
@@ -5467,8 +5474,9 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="135.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25bd-520e-07a5-9d0a" name="Heavy Rock Drill" hidden="false" collective="false" type="upgrade">
@@ -5509,6 +5517,7 @@
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="90.0"/>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0be2-e5fb-0575-7e4e" name="Heavy Rock Saw" hidden="false" collective="false" type="upgrade">
@@ -5549,6 +5558,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="120.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72e2-c8dc-3a2c-55a3" name="Bonesword" hidden="false" collective="false" type="upgrade">
@@ -5583,6 +5593,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="30.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2833-8247-28b5-fcea" name="Toxin Injector Claw" hidden="false" collective="false" type="upgrade">
@@ -5617,6 +5628,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17b8-27eb-0842-db3b" name="Lash Whip" hidden="false" collective="false" type="upgrade">
@@ -5651,6 +5663,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67ad-4177-81ec-42d2" name="Staff of Office" hidden="false" collective="false" type="upgrade">
@@ -5685,6 +5698,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="25.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfb1-ca93-c4f3-8bf5" name="Power Pick" hidden="false" collective="false" type="upgrade">
@@ -5725,6 +5739,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="40.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2eb6-8657-d03b-e969" name="Demolition Charge" hidden="false" collective="false" type="upgrade">
@@ -5764,6 +5779,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a35-9202-72a4-4538" name="Mining Laser" hidden="false" collective="false" type="upgrade">
@@ -5801,6 +5818,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="125.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b843-6364-41fa-9821" name="Seismic Cannon" hidden="false" collective="false" type="upgrade">
@@ -5856,6 +5874,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="140.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d41-17b5-0132-e0d6" name="Webber" hidden="false" collective="false" type="upgrade">
@@ -5899,6 +5918,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="125.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
