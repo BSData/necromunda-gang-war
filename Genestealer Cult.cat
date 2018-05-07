@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6b31-0dbf-5fde-b909" name="Genestealer Cult" revision="2" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6b31-0dbf-5fde-b909" name="Genestealer Cult" revision="3" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -42,9 +42,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c81-1036-b336-970f" type="min"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
     </entryLink>
   </entryLinks>
@@ -55,7 +53,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="e95c-5198-5d83-5098" value="6+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="14b5-f099-df1a-6725" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bffc-5aaa-874d-b46e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="6bb5-d80e-a19b-1d1a" value="4&quot;"/>
             <characteristic name="WS" characteristicTypeId="b63f-b3e0-0943-d7a9" value="3+"/>
@@ -117,7 +123,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1436-a331-66de-b1bb" name="Lasting Injury" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -140,7 +150,11 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b2c7-a0b4-a4b6-43ff" name="Recovery" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -154,7 +168,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0d70-2bb5-78d0-02b4" name="Skills" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -290,7 +308,11 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -304,7 +326,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ef1f-18d8-037a-6dce" name="Weapons" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -339,7 +365,11 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -353,7 +383,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="737f-6d47-d286-7a77" name="Wargear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -385,13 +419,19 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="120.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="757b-2fd6-4547-8f99" name="Familiar" hidden="false" collective="false" type="upgrade">
@@ -411,7 +451,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9a8a-8b15-b19c-0f4a" name="Hypnosis" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -430,7 +474,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d3e5-0fae-6f95-cbed" name="Unbreakable Will" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -449,7 +497,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b8b9-84bd-deda-7855" name="Zealot" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -468,7 +520,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9944-6ceb-55b3-ed50" name="Hybrid Acolyte" hidden="false" collective="false" type="model">
       <profiles>
@@ -538,7 +594,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1366-4605-d7c0-5b66" name="Lasting Injury" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -561,7 +621,11 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="321a-508e-f17e-cdc2" name="Recovery" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -575,7 +639,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8b76-9b5d-868f-8c24" name="Skills" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -703,7 +771,11 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -717,7 +789,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="03bc-2715-e450-e3e9" name="Wargear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -730,7 +806,54 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f3c4-b419-02c4-6332" name="Wargear" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="73ac-5a20-4f4f-f7c9" name="Cult Icon" hidden="false" targetId="c6d7-a6b2-411f-f3ab" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="40">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2595-7d6b-d723-5f1b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc46-6621-b124-38cd" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0784-921a-4a8c-caba" name="Hazard Suit" hidden="false" targetId="bffc-5aaa-874d-b46e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38f7-bbc9-6ab5-8a43" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e816-baff-b369-1fe0" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="a748-82e8-589c-db73" name="Grenades" hidden="false" targetId="1db7-3923-9e1d-044d" type="selectionEntryGroup">
               <profiles/>
@@ -740,25 +863,12 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="9ea2-7819-a94d-0aa4" name="Cult Icon" hidden="false" targetId="c6d7-a6b2-411f-f3ab" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="40">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4852-9725-3518-138d" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a7-bbd9-9392-46ff" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4e37-7227-04b6-ad0e" name="Weapons" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -793,7 +903,11 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -807,13 +921,19 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="85.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87a5-b305-4bb1-ae65" name="Aberrant" hidden="false" collective="false" type="model">
@@ -884,7 +1004,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="317b-f7d2-1c50-abc2" name="Lasting Injury" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -907,7 +1031,11 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a678-c871-cb06-acb2" name="Recovery" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -921,7 +1049,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9431-0097-2224-3120" name="Skills" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -943,7 +1075,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -957,7 +1093,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="16ee-423d-f900-5177" name="Weapons" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -981,13 +1121,19 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="90.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ead-7a10-2ef8-8260" name="Neophyte Hybrid" hidden="false" collective="false" type="model">
@@ -1058,7 +1204,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4d2f-e417-1a21-42e5" name="Lasting Injury" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1081,7 +1231,11 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1de8-a5e0-934d-afb7" name="Recovery" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1095,7 +1249,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1109,7 +1267,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6f27-4584-0c17-7471" name="Wargear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1122,7 +1284,85 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1550-7942-4085-b5bb" name="Wargear" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="56cb-3db4-d666-bdbb" name="Extra Arm" hidden="false" targetId="0fa0-3032-ed27-5c36" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="50">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d334-579b-0304-9a82" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="012f-92f6-ae21-3693" name="Hazard Suit" hidden="false" targetId="bffc-5aaa-874d-b46e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea2f-46a2-ab9c-3de5" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e02-7c8f-6d24-ccda" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8c69-1e0e-ad0f-abce" name="Photo-goggles" hidden="false" targetId="3e36-a84c-e1bc-2fa5" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ed-c077-dbe2-b089" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fb5c-4e41-f1cd-7473" name="Respirator" hidden="false" targetId="529c-afbb-cdc9-06a9" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33a2-a645-837d-62c6" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="6eb4-50bc-3bfd-0dbc" name="Grenades" hidden="false" targetId="1db7-3923-9e1d-044d" type="selectionEntryGroup">
               <profiles/>
@@ -1132,16 +1372,12 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="bd00-204f-b866-4ec5" name="Wargear" hidden="false" targetId="9c03-50c0-5af0-2c99" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2e6f-dccd-83ab-48ce" name="Weapons" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1176,7 +1412,11 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1190,13 +1430,19 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="45.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1686,7 +1932,11 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2092,13 +2342,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The Adept is accompanied by a Familiar - a psychic manifestation of their will. This ability can be taken up to twice by an Adept, granting them up to two Familiars.
-
-If a Leadership, Cool, Willpower or Intelligence check needs to be made for a familiar, use the Adept&apos;s characteristic value instead.
-
-The Familiar is always activated at the same time as the Adept, in the same way that a Group Activation is made. If the Adept is leading a Group Activation, the Familiar does not count towards the two fighters they can activate.
-
-If the Adept goes Out of Action, the Familiar is removed from play. Familiars never suffer serious injuries and cannot gain experience."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The Adept is accompanied by a Familiar - a psychic manifestation of their will. This ability can be taken up to twice by an Adept, granting them up to two Familiars.  If a Leadership, Cool, Willpower or Intelligence check needs to be made for a familiar, use the Adept&apos;s characteristic value instead.  The Familiar is always activated at the same time as the Adept, in the same way that a Group Activation is made. If the Adept is leading a Group Activation, the Familiar does not count towards the two fighters they can activate.  If the Adept goes Out of Action, the Familiar is removed from play. Familiars never suffer serious injuries and cannot gain experience."/>
       </characteristics>
     </profile>
     <profile id="f3f2-0482-1099-fc59" name="Hypnosis" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
