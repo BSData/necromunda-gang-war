@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="15" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="17" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5014,6 +5014,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="55.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7347-94a6-96c4-4abc" name="Power Axe" hidden="false" collective="false" type="upgrade">
@@ -5054,6 +5055,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="35.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d44f-d8ab-d95d-598b" name="Two-handed Axe" hidden="false" collective="false" type="upgrade">
@@ -5088,6 +5090,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="25.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac48-ee45-8e95-00a3" name="Two-handed Hammer" hidden="false" collective="false" type="upgrade">
@@ -5128,6 +5131,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="35.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20ee-0093-0f07-6480" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
@@ -5165,6 +5169,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c95c-b2de-dab6-1ee7" name="Heavy Flamer" hidden="false" collective="false" type="upgrade">
@@ -5208,6 +5213,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="195.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cb9-d817-c289-94a4" name="Bolter/flamer combi-weapon" hidden="false" collective="false" type="upgrade">
@@ -5269,6 +5275,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="185.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37ed-2415-0f46-f7d1" name="Bolter/melta combi-weapon" hidden="false" collective="false" type="upgrade">
@@ -5330,6 +5337,588 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="175.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bffc-5aaa-874d-b46e" name="Hazard Suit" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2615-55f7-0230-5bda" name="Hazard Suit" hidden="false" targetId="d7a1-85a4-cb72-85fe" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6d7-a6b2-411f-f3ab" name="Cult Icon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7759-b6e6-4602-9cda" name="Cult Icon" hidden="false" targetId="60ef-9912-1865-7973" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="40.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fa0-3032-ed27-5c36" name="Extra Arm" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0817-dade-0bd6-b400" name="Extra Arm" hidden="false" targetId="1158-e428-397a-fc78" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86c3-829c-98dd-dfe7" name="Power Maul" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="499f-b3cc-27b8-0bbd" name="Power maul" hidden="false" targetId="fdf0-5ce2-b3a1-56d2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7c69-b8c2-03f1-1f55" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a3d4-f018-8e1e-530d" name="Power" hidden="false" targetId="118a-617f-11d2-2ae2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="30.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09b2-1d09-c386-c808" name="Heavy Rock Cutter" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2b6a-ad49-c3b0-0df6" name="Heavy rock cutter" hidden="false" targetId="4f1a-6f18-59d7-fc76" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e6e7-64f8-6fdf-8a7a" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f01-0ce1-bd0f-a766" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="135.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25bd-520e-07a5-9d0a" name="Heavy Rock Drill" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b090-8901-6d0b-2af4" name="Heavy rock drill" hidden="false" targetId="630d-e322-80e1-2880" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f55b-c97a-20b6-9d5f" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7681-dcf0-c1fe-ed3a" name="Pulverize" hidden="false" targetId="0998-1056-e0ee-163c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8540-b953-ad1b-854f" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="90.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0be2-e5fb-0575-7e4e" name="Heavy Rock Saw" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d981-d1c7-18f7-c5e0" name="Heavy rock saw" hidden="false" targetId="98f7-ce40-cbc0-ef50" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9737-21d8-acf9-48a2" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f0a-a02d-9c53-9439" name="Rending" hidden="false" targetId="110d-dba3-c3bf-1297" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fcd-2af6-e51e-8bae" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="120.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72e2-c8dc-3a2c-55a3" name="Bonesword" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4193-765c-6241-173b" name="Bonesword" hidden="false" targetId="723c-db52-9979-8bbf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3b92-f433-0c24-e0f1" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3fd6-a215-4c8d-4932" name="Parry" hidden="false" targetId="3371-1077-dea5-38ab" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="30.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2833-8247-28b5-fcea" name="Toxin Injector Claw" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bf63-d635-6f2c-5532" name="Toxin injector claw" hidden="false" targetId="9cfe-1516-89d6-e11d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e4bf-4008-a7d1-1c89" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="90f0-1601-2cd3-ca6a" name="Toxin" hidden="false" targetId="1018-11de-ae43-0d70" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17b8-27eb-0842-db3b" name="Lash Whip" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fcda-e1cc-1dec-a165" name="Lash whip" hidden="false" targetId="1b45-1366-9999-d6da" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="892a-af58-7e3a-2463" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1181-357c-a728-d8db" name="Versatile" hidden="false" targetId="42d3-40cf-01c8-e3fc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67ad-4177-81ec-42d2" name="Staff of Office" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0de4-c2e8-4938-cd99" name="Staff of office" hidden="false" targetId="1c31-260b-f194-f9f5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9be8-4f0d-4b1d-4df7" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f23b-4267-e4e6-0727" name="Parry" hidden="false" targetId="3371-1077-dea5-38ab" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="25.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb1-ca93-c4f3-8bf5" name="Power Pick" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e8b9-d74e-b0e0-27c3" name="Power pick" hidden="false" targetId="2696-5f80-7d43-0fe3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="39d9-feb2-eb8e-68ea" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a8af-d13b-28e9-0bbd" name="Power" hidden="false" targetId="118a-617f-11d2-2ae2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3435-6cc3-731e-950f" name="Pulverize" hidden="false" targetId="0998-1056-e0ee-163c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="40.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2eb6-8657-d03b-e969" name="Demolition Charge" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9d79-c812-0e87-b47a" name="Demolition charge" hidden="false" targetId="902b-2d64-224c-929a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="24a9-9dfe-3b55-7021" name="Blast (3&quot;/5&quot;)" hidden="false" targetId="d061-7ff0-8cb0-08eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2cf1-31f7-a9c6-ccab" name="Grenade" hidden="false" targetId="ed09-eee4-c760-4e4f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c7b-e678-7780-7a10" name="Single Shot" hidden="false" targetId="68c9-8383-5222-aad2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a35-9202-72a4-4538" name="Mining Laser" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="514e-bba3-90c0-e1c7" name="Mining Laser" hidden="false" targetId="22bd-5b1f-d8ef-83d6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f59-44d4-987a-e234" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fa46-17c3-a903-71c5" name="Heavy Weapon Upgrades" hidden="false" targetId="1bb3-418d-16df-d5ea" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="125.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b843-6364-41fa-9821" name="Seismic Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5aff-a2e0-cdbe-b185" name="Seismic cannon - Short wave" hidden="false" targetId="9bc0-96a9-079d-d322" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b61a-93b5-5652-7a9a" name="Seismic cannon - Long wave" hidden="false" targetId="bf66-021b-7e26-cce0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0a04-ab60-5d1a-5000" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7300-e57b-87d2-4e95" name="Seismic" hidden="false" targetId="0e8f-d494-7e65-ad5c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fe9d-6b55-e6de-85c2" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a5a1-7853-7b51-88b3" name="Heavy Weapon Upgrades" hidden="false" targetId="1bb3-418d-16df-d5ea" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="140.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d41-17b5-0132-e0d6" name="Webber" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="93e2-43cb-a637-5a2c" name="Webber" hidden="false" targetId="1461-f0f8-c8f9-ba97" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="09e2-8b0b-64c3-ca30" name="Template" hidden="false" targetId="420d-1452-c366-f348" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f582-5e38-9fbf-11c3" name="Web" hidden="false" targetId="f5f9-97ca-d185-dbac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b838-0e41-7898-56b7" name="Special Weapon Upgrades" hidden="false" targetId="f573-de72-3b41-60d3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="125.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -7629,7 +8218,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the roll to wound with a Rending weapon is a 6, the attack causes 1 extra point of damage.</description>
+      <description>If the roll to wound with a Rending weapon is a natural 6, the attack causes 1 extra point of damage.</description>
     </rule>
     <rule id="a734-67b7-aee3-1980" name="Melta" hidden="false">
       <profiles/>
@@ -7637,6 +8226,27 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <description>If this weapon is fired at Short Range, no Injury roll is made - instead, the target automatically goes Out of Action.</description>
+    </rule>
+    <rule id="0e8f-d494-7e65-ad5c" name="Seismic" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If the target of a Seismic attack is Active, they are always Pinned - even if they have an ability that would normally allow them to avoid being Pinned by ranged attacks. In addition, if the wound roll for a Seismic weapon is a natural 6, no save roll can be made against that attack.</description>
+    </rule>
+    <rule id="f5f9-97ca-d185-dbac" name="Web" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If the wound roll for a Web attack is successful, no wound is inflicted, and no save roll or Injury roll is made. Instead, the target is automatically Webbed. Treat the fighter as if they were Seriously Injured. A fighter that is Webbed at the end of the game does not succumb to their injuries and will automatically recover. When rolling to determine if any enemy fighters are captured at the end of the game, add +1 to the dice roll for each enemy fighter currently Webbed.</description>
+    </rule>
+    <rule id="68c9-8383-5222-aad2" name="Single Shot" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This weapon can only be used once per game. After use it counts as having automatically failed an Ammo Check. There is no need to roll the Firepower dice unless the weapon also has the Rapid Fire (x) trait.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -9648,6 +10258,271 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Scattershot"/>
+      </characteristics>
+    </profile>
+    <profile id="d7a1-85a4-cb72-85fe" name="Hazard Suit" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="A Hazard Suit grants a 6+ save roll. Additionally, when a Hazard Suit is combined with a Respirator, the fighter&apos;s Toughness is increased by 3 against Gas attacks, rather than the usual 2."/>
+      </characteristics>
+    </profile>
+    <profile id="60ef-9912-1865-7973" name="Cult Icon" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="One Hybrid Acolyte in the gang may carry a Cult Icon. When the Hybrid Acolyte carrying the Cult Icon makes a Group Activation, it may activate two Readied fighters within 4&quot;, rather than the usual one."/>
+      </characteristics>
+    </profile>
+    <profile id="1158-e428-397a-fc78" name="Extra Arm" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Any fighter with a third arm may use it to better handle an Unwieldy weapon, or to gain an extra attack in combat. If armed with an Unwieldy gun, shooting it becomes a Basic action rather than a Double action. Otherwise, the fighter gains +1 attack in close combat. This extra attack is treated as being made with a Fighting Knife rather than with any other weapons the fighter may be carrying."/>
+      </characteristics>
+    </profile>
+    <profile id="22bd-5b1f-d8ef-83d6" name="Mining Laser" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="9"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-3"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="3+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="1461-f0f8-c8f9-ba97" name="Webber" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="-"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Template, Web"/>
+      </characteristics>
+    </profile>
+    <profile id="9bc0-96a9-079d-d322" name="Seismic cannon - Short wave" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="6"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (1), Seismic, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="bf66-021b-7e26-cce0" name="Seismic cannon - Long wave" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="12&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="24&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="5+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (2), Seismic, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="fdf0-5ce2-b3a1-56d2" name="Power maul" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Power"/>
+      </characteristics>
+    </profile>
+    <profile id="4f1a-6f18-59d7-fc76" name="Heavy rock cutter" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-4"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="630d-e322-80e1-2880" name="Heavy rock drill" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-3"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Pulverise, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="98f7-ce40-cbc0-ef50" name="Heavy rock saw" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+3"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-3"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Rending, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="723c-db52-9979-8bbf" name="Bonesword" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Parry"/>
+      </characteristics>
+    </profile>
+    <profile id="9cfe-1516-89d6-e11d" name="Toxin injector claw" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Toxin"/>
+      </characteristics>
+    </profile>
+    <profile id="1b45-1366-9999-d6da" name="Lash whip" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="E"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="2&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Versatile"/>
+      </characteristics>
+    </profile>
+    <profile id="1c31-260b-f194-f9f5" name="Staff of office" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Parry"/>
+      </characteristics>
+    </profile>
+    <profile id="2696-5f80-7d43-0fe3" name="Power pick" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="E"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+1"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-3"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Power, Pulverise"/>
+      </characteristics>
+    </profile>
+    <profile id="902b-2d64-224c-929a" name="Demolition charge" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="Sx2"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value=""/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="8"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-3"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Grenade, Blast (5&quot;), Single Shot"/>
       </characteristics>
     </profile>
   </sharedProfiles>
