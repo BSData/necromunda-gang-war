@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6b31-0dbf-5fde-b909" name="Genestealer Cult" revision="4" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6b31-0dbf-5fde-b909" name="Genestealer Cult" revision="5" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -22,9 +22,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f99c-2523-8e73-a1f4" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
     </entryLink>
     <entryLink id="b041-d619-fa92-5529" name="Aberrant" hidden="false" targetId="87a5-b305-4bb1-ae65" type="selectionEntry">
@@ -2031,7 +2029,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="aa9b-e132-09d9-3ec0" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e141-8027-380e-d58e" type="max"/>
+        <constraint field="aa9b-e132-09d9-3ec0" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e141-8027-380e-d58e" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
