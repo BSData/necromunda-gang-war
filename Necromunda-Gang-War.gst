@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="18" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="19" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5988,6 +5988,7 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9e5-7abc-eeb7-f823" name="Sword" hidden="false" collective="false" type="upgrade">
@@ -6022,6 +6023,51 @@
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c2e-ceac-d033-18e4" name="Heavy Bolter" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ac45-3443-ae8d-29e6" name="Heavy Bolter" hidden="false" targetId="bb1c-18dd-205b-84d2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1eec-b255-de43-ff36" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7db5-3780-6d3c-fa0a" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="34da-bf39-2bae-d753" name="Heavy Weapon Upgrades" hidden="false" targetId="1bb3-418d-16df-d5ea" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="160.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -10650,6 +10696,23 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Disarm"/>
+      </characteristics>
+    </profile>
+    <profile id="bb1c-18dd-205b-84d2" name="Heavy Bolter" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="18&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="36&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="+1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="5"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Rapid Fire (2), Unwieldy"/>
       </characteristics>
     </profile>
   </sharedProfiles>

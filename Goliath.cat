@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f332-c73e-59f7-87e3" name="Goliath" revision="18" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f332-c73e-59f7-87e3" name="Goliath" revision="20" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -61,11 +61,11 @@
           <characteristics>
             <characteristic name="M" characteristicTypeId="6bb5-d80e-a19b-1d1a" value="4&quot;"/>
             <characteristic name="WS" characteristicTypeId="b63f-b3e0-0943-d7a9" value="4+"/>
-            <characteristic name="BS" characteristicTypeId="0fa7-30b4-4582-f621" value="4"/>
+            <characteristic name="BS" characteristicTypeId="0fa7-30b4-4582-f621" value="4+"/>
             <characteristic name="S" characteristicTypeId="aba3-75b1-4a66-c5ed" value="4"/>
             <characteristic name="T" characteristicTypeId="0358-5ace-b5c0-d69b" value="4"/>
             <characteristic name="W" characteristicTypeId="ca12-f503-7ae4-42ff" value="1"/>
-            <characteristic name="I" characteristicTypeId="ac2f-586a-f7df-3a8d" value="4"/>
+            <characteristic name="I" characteristicTypeId="ac2f-586a-f7df-3a8d" value="4+"/>
             <characteristic name="A" characteristicTypeId="a987-af50-0bb1-fd2a" value="1"/>
             <characteristic name="Ld" characteristicTypeId="3f60-5808-1589-9540" value="8+"/>
             <characteristic name="Cl" characteristicTypeId="5eb8-bad4-7afc-b90c" value="5+"/>
@@ -299,7 +299,7 @@
           <characteristics>
             <characteristic name="M" characteristicTypeId="6bb5-d80e-a19b-1d1a" value="4&quot;"/>
             <characteristic name="WS" characteristicTypeId="b63f-b3e0-0943-d7a9" value="3+"/>
-            <characteristic name="BS" characteristicTypeId="0fa7-30b4-4582-f621" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="0fa7-30b4-4582-f621" value="4+"/>
             <characteristic name="S" characteristicTypeId="aba3-75b1-4a66-c5ed" value="4"/>
             <characteristic name="T" characteristicTypeId="0358-5ace-b5c0-d69b" value="4"/>
             <characteristic name="W" characteristicTypeId="ca12-f503-7ae4-42ff" value="2"/>
@@ -1987,6 +1987,20 @@
               <infoLinks/>
               <modifiers>
                 <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="130">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ea15-450b-c1bb-7749" name="Heavy Bolter" hidden="false" targetId="1c2e-ceac-d033-18e4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="160">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
