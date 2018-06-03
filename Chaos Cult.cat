@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4cc1-3267-a342-4e5d" name="Chaos Cult" revision="1" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4cc1-3267-a342-4e5d" name="Chaos Cult" revision="2" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -36,6 +36,14 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="c773-31e8-1f12-4049" name="Helot Cultist" hidden="false" targetId="e40c-dadf-2775-4899" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e2eb-941e-e51e-ffce" name="Chaos Spawn" hidden="false" targetId="149e-a525-087e-15d0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -86,7 +94,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fe55-71fa-798d-9758" name="Levitation" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -105,7 +117,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a825-a7bb-1fec-52c8" name="Warp Strength" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -124,7 +140,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a294-e7e3-2920-2174" name="Dark Shield" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -143,7 +163,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="728d-fdb0-b272-209d" name="Maddening Visions" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -162,7 +186,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="190c-adeb-7a84-5cdd" name="Cult Demagogue" hidden="false" collective="false" type="model">
       <profiles>
@@ -496,7 +524,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2e80-7b14-62d9-9500" name="Wargear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -539,6 +571,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="100.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dde-72de-e80f-e3c7" name="Cult Disciple" hidden="false" collective="false" type="model">
@@ -861,7 +895,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9577-19c0-3c65-c2e3" name="Wargear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -904,6 +942,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="60.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d533-0cbd-3cc5-3efd" name="Cult Witch" hidden="false" collective="false" type="model">
@@ -1234,7 +1274,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="aab0-9b39-0e31-9118" name="Wargear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1277,6 +1321,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="70.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e40c-dadf-2775-4899" name="Helot Cultist" hidden="false" collective="false" type="model">
@@ -1467,7 +1513,11 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0521-b36a-5988-6d94" name="Wargear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1510,6 +1560,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="35.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ba9-6d15-542b-a97a" name="Cult Leader" hidden="false" collective="false" type="upgrade">
@@ -1529,7 +1581,683 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="149e-a525-087e-15d0" name="Chaos Spawn" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="748d-beef-3ec2-8cae" name="Chaos Spawn" hidden="false" profileTypeId="5774-f79f-a3b7-e72d" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b63f-b3e0-0943-d7a9" value="3+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="143b-a191-a061-d79b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="b63f-b3e0-0943-d7a9" value="4+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ec96-28c6-623c-625a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="b63f-b3e0-0943-d7a9" value="5+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1cde-7b9d-cf9a-3f86" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="aba3-75b1-4a66-c5ed" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b6b-6feb-b595-0559" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="aba3-75b1-4a66-c5ed" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="736f-b5d0-5bfa-42b5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="aba3-75b1-4a66-c5ed" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="628f-eca5-1fda-96a2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="0358-5ace-b5c0-d69b" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b47c-3d90-08e8-c0cf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="0358-5ace-b5c0-d69b" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07ec-d9ff-186d-de1d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="0358-5ace-b5c0-d69b" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="621e-7874-45da-224a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="ca12-f503-7ae4-42ff" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e196-35b5-c6a0-f79a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="ca12-f503-7ae4-42ff" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08da-d047-bedf-3c36" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="ca12-f503-7ae4-42ff" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="57c9-409d-5d5b-f908" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="ac2f-586a-f7df-3a8d" value="3+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0428-eb01-e1fd-ddfe" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="ac2f-586a-f7df-3a8d" value="4+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc7a-2dcb-308f-bfb7" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="ac2f-586a-f7df-3a8d" value="5+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1dc1-aa78-d742-d474" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="a987-af50-0bb1-fd2a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0cc7-25b0-8dd4-2b03" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="a987-af50-0bb1-fd2a" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3fb2-58bc-6fda-5874" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="a987-af50-0bb1-fd2a" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="149e-a525-087e-15d0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b211-c816-7e96-9e43" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="6bb5-d80e-a19b-1d1a" value="D6"/>
+            <characteristic name="WS" characteristicTypeId="b63f-b3e0-0943-d7a9" value="?"/>
+            <characteristic name="BS" characteristicTypeId="0fa7-30b4-4582-f621" value="-"/>
+            <characteristic name="S" characteristicTypeId="aba3-75b1-4a66-c5ed" value="?"/>
+            <characteristic name="T" characteristicTypeId="0358-5ace-b5c0-d69b" value="?"/>
+            <characteristic name="W" characteristicTypeId="ca12-f503-7ae4-42ff" value="?"/>
+            <characteristic name="I" characteristicTypeId="ac2f-586a-f7df-3a8d" value="?"/>
+            <characteristic name="A" characteristicTypeId="a987-af50-0bb1-fd2a" value="?"/>
+            <characteristic name="Ld" characteristicTypeId="3f60-5808-1589-9540" value="-"/>
+            <characteristic name="Cl" characteristicTypeId="5eb8-bad4-7afc-b90c" value="-"/>
+            <characteristic name="Wil" characteristicTypeId="7245-c85d-e087-81fe" value="-"/>
+            <characteristic name="Int" characteristicTypeId="d87a-5740-fb44-5134" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="e95c-5198-5d83-5098" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0f00-c3e4-33c6-a296" name="New CategoryLink" hidden="false" targetId="ca12-6ac2-dc47-76ec" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="17a2-435c-b77f-a4e4" name="WS" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b278-ea22-1b98-6028" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88e4-37b5-455f-b7f4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ed32-a81d-6056-8264" name="WS" hidden="false" collective="false" defaultSelectionEntryId="143b-a191-a061-d79b">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1552-6fe9-3ba0-ed6c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356b-5d2f-2a92-bb97" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="143b-a191-a061-d79b" name="3+" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ec96-28c6-623c-625a" name="4+" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1cde-7b9d-cf9a-3f86" name="5+" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b724-6704-48da-59ff" name="S" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1922-9218-c084-7631" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71be-26cf-2f95-9b57" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f754-e4ee-79ad-8558" name="S" hidden="false" collective="false" defaultSelectionEntryId="736f-b5d0-5bfa-42b5">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bdf-3c35-674b-aa9e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a76-3300-b5d9-75a9" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="736f-b5d0-5bfa-42b5" name="3" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3b6b-6feb-b595-0559" name="4" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="628f-eca5-1fda-96a2" name="5" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4376-c536-3189-5372" name="T" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9190-a81a-7d09-b54f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd2-6778-9b09-936d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c0fd-3bbf-f31a-773e" name="T" hidden="false" collective="false" defaultSelectionEntryId="b47c-3d90-08e8-c0cf">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9bf-8165-4ee3-f4a0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee95-5bef-19e2-e34a" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="621e-7874-45da-224a" name="6" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b47c-3d90-08e8-c0cf" name="4" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="07ec-d9ff-186d-de1d" name="5" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c5ff-1483-115c-bece" name="W" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b21-7316-7dcc-bc97" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ae-2b8e-4e72-30f6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d5e1-705b-c819-f79e" name="W" hidden="false" collective="false" defaultSelectionEntryId="e196-35b5-c6a0-f79a">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4bd-9fbe-4e81-e49e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f1-e6a5-4261-a10b" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="57c9-409d-5d5b-f908" name="3" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="08da-d047-bedf-3c36" name="2" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e196-35b5-c6a0-f79a" name="1" book="" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="183e-5e26-1681-eaa5" name="I" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85c-d13b-bd0c-a1ce" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e43a-7711-d4b7-e56e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6e97-66d7-720f-0c09" name="I" hidden="false" collective="false" defaultSelectionEntryId="0428-eb01-e1fd-ddfe">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e3-62fa-cd09-f1f3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a3-14ea-4f1e-a59f" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="0428-eb01-e1fd-ddfe" name="3+" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="dc7a-2dcb-308f-bfb7" name="4+" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1dc1-aa78-d742-d474" name="5+" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9155-55c9-f7f5-fdca" name="A" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ae2-e84b-a335-8915" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8922-7a06-ca4f-dbf0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7dda-1374-5631-cf08" name="A" hidden="false" collective="false" defaultSelectionEntryId="0cc7-25b0-8dd4-2b03">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21fb-7b63-d473-2051" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e1-e86d-5835-2b30" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="b211-c816-7e96-9e43" name="3" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3fb2-58bc-6fda-5874" name="2" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0cc7-25b0-8dd4-2b03" name="1" book="" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                    <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                    <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="130.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
