@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6b31-0dbf-5fde-b909" name="Genestealer Cult" revision="3" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6b31-0dbf-5fde-b909" name="Genestealer Cult" revision="4" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -435,7 +435,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="757b-2fd6-4547-8f99" name="Familiar" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="ed0e-02a9-5297-adf9" name="Familiar" hidden="false" profileTypeId="5774-f79f-a3b7-e72d" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="6bb5-d80e-a19b-1d1a" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="b63f-b3e0-0943-d7a9" value="5+"/>
+            <characteristic name="BS" characteristicTypeId="0fa7-30b4-4582-f621" value="-"/>
+            <characteristic name="S" characteristicTypeId="aba3-75b1-4a66-c5ed" value="2"/>
+            <characteristic name="T" characteristicTypeId="0358-5ace-b5c0-d69b" value="2"/>
+            <characteristic name="W" characteristicTypeId="ca12-f503-7ae4-42ff" value="1"/>
+            <characteristic name="I" characteristicTypeId="ac2f-586a-f7df-3a8d" value="2+"/>
+            <characteristic name="A" characteristicTypeId="a987-af50-0bb1-fd2a" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="3f60-5808-1589-9540" value="-"/>
+            <characteristic name="Cl" characteristicTypeId="5eb8-bad4-7afc-b90c" value="-"/>
+            <characteristic name="Wil" characteristicTypeId="7245-c85d-e087-81fe" value="-"/>
+            <characteristic name="Int" characteristicTypeId="d87a-5740-fb44-5134" value="-"/>
+            <characteristic name="Sv" characteristicTypeId="e95c-5198-5d83-5098" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="45cc-9e55-f112-7d13" name="Familiar" hidden="false" targetId="03a0-7c8a-8460-d38d" type="profile">
