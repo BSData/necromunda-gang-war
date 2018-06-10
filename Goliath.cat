@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f332-c73e-59f7-87e3" name="Goliath" revision="20" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f332-c73e-59f7-87e3" name="Goliath" revision="21" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1723,6 +1723,20 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="c4b6-5cd3-ffa5-437e" name="Club, maul or hammer" hidden="false" targetId="9354-6d02-e98d-cac3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ab97-3fff-06ae-0ea7" name="Basic Weapons" hidden="false" collective="false">
@@ -2060,7 +2074,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54fd-9f4b-91df-9056" type="max"/>
           </constraints>
@@ -2070,7 +2090,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="30">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="923d-bb31-3c82-37e8" type="max"/>
           </constraints>
@@ -2080,7 +2106,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7326-89d5-331e-f695" type="max"/>
           </constraints>
@@ -2122,7 +2154,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc63-f2e3-7808-f6ed" type="max"/>
           </constraints>
@@ -2132,7 +2170,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c389-e159-5711-dda9" type="max"/>
           </constraints>
