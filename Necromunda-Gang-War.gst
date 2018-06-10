@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="20" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="22" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6904,8 +6904,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
-        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="15.0"/>
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6949,7 +6949,7 @@
       </entryLinks>
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
-        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7005,7 +7005,7 @@
       </entryLinks>
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
-        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="40.0"/>
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7046,7 +7046,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
-        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="130.0"/>
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7090,7 +7090,7 @@
       </entryLinks>
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
-        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="100.0"/>
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7131,7 +7131,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
-        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="25.0"/>
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7213,7 +7213,293 @@
       <entryLinks/>
       <costs>
         <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4dd6-8b90-1374-41fe" name="Lasgun/plasma combi-weapon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b029-d033-9bed-38a9" name="Lasgun" hidden="false" targetId="c328-d43f-6132-2494" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi, Plentiful">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="99ed-b500-5090-dccf" name="Plasma gun - Low power" hidden="false" targetId="141b-fbf4-82eb-7382" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi, Rapid Fire (1), Scarce">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="edf5-f13f-7f9b-3b73" name="Combi" hidden="false" targetId="7c92-1059-a9b2-f7ee" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6da5-38ad-27d6-0567" name="Plentiful" hidden="false" targetId="c823-a12f-6b9f-635c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="61e8-a24a-e158-8b65" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="09b6-42a5-4c4a-a4f3" name="Scarce" hidden="false" targetId="0f02-895e-cecd-79d2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0f66-5f8f-af6a-0f90" name="Special Weapon Upgrades" hidden="false" targetId="f573-de72-3b41-60d3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="75.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82fb-6dd3-c886-ef20" name="Lasgun/melta combi-weapon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="79d0-72c0-4214-a10d" name="Lasgun" hidden="false" targetId="c328-d43f-6132-2494" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi, Plentiful">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b26b-04ce-8a39-6439" name="Meltagun" hidden="false" targetId="94d5-9f2d-d9da-3404" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi, Melta, Scarce">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cf91-ed6a-6db8-3ff3" name="Combi" hidden="false" targetId="7c92-1059-a9b2-f7ee" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a6a4-db29-645b-9716" name="Plentiful" hidden="false" targetId="c823-a12f-6b9f-635c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c9e-fceb-b8bd-6912" name="Melta" hidden="false" targetId="a734-67b7-aee3-1980" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6977-2ca2-f343-14bc" name="Scarce" hidden="false" targetId="0f02-895e-cecd-79d2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bd25-40e5-43aa-9f28" name="Special Weapon Upgrades" hidden="false" targetId="f573-de72-3b41-60d3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="120.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad7a-ff79-a3d2-f502" name="Armoured Bodyglove" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="df45-f58f-b0ea-ea2c" name="Armoured Bodyglove" hidden="false" targetId="97b9-d312-537c-dd52" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4dea-cd71-0633-64ea" name="Carapace Armour - Light" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8430-d6c7-8d4f-a814" name="Carapace Armour - Light" hidden="false" targetId="2c00-3a0d-1c48-5704" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="80.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0305-13d5-7705-059f" name="Carapace Armour - Heavy" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="42b1-cada-5290-4c3d" name="Carapace Armour - Heavy" hidden="false" targetId="c7d1-a52d-5e46-fe10" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="100.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f39-c31c-ada3-8ef1" name="Flak Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a91a-4f9f-008e-d260" name="Flak Armour" hidden="false" targetId="23e0-cb14-335e-5c97" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff62-6391-2a3d-342c" name="Furnace Plates" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fc28-484c-efb2-e2e8" name="Furnace Plates" hidden="false" targetId="6a56-4879-05a6-aeb6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c77-5bd4-b745-d608" name="Mesh Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cf7f-980f-0ad2-4437" name="Mesh Armour" hidden="false" targetId="2736-ada6-cc5c-d8c5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="15.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10647,13 +10933,13 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="If a fighter with a bio-scanner is a sentry in a scenario that uses the Sentries special rule, they can attempt to spot attackers even if they are not within their vision arc. In addition, the D6 roll to see whether a fighter is spotted has a +1 modifier (a natural 1 still fails)."/>
       </characteristics>
     </profile>
-    <profile id="899c-c26a-f545-2d14" name="Drop rig" hidden="false" profileTypeId="3bc4-bab6-bfcc-790b" profileTypeName="Territory">
+    <profile id="899c-c26a-f545-2d14" name="Drop rig" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Rules" characteristicTypeId="108a-b770-5e87-0c59" value="An Active fighter with a drop rig can make the following action when they are within 1&quot; of the edge of a platform: Descend (Basic) - The fighter makes a move up to 3&quot; horizontally and up to 12&quot; vertically. Any vertical movement must be downwards, i.e., towards the ground."/>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="An Active fighter with a drop rig can make the following action when they are within 1&quot; of the edge of a platform: Descend (Basic) - The fighter makes a move up to 3&quot; horizontally and up to 12&quot; vertically. Any vertical movement must be downwards, i.e., towards the ground."/>
       </characteristics>
     </profile>
     <profile id="91b3-00af-f192-627c" name="Filter plugs" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
@@ -12303,6 +12589,60 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="3"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Power, Shock"/>
+      </characteristics>
+    </profile>
+    <profile id="23e0-cb14-335e-5c97" name="Flak Armour" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Flak armour grants a 6+ save roll. Against weapons that use a Blast marker or Flame template, this is increased to 5+ save roll."/>
+      </characteristics>
+    </profile>
+    <profile id="97b9-d312-537c-dd52" name="Armoured Bodyglove" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Van Saar fighters are somewhat protected from the effects of their own rad weapons by their armour and are therefore immune to the effects of the Rad-phage Weapon Trait (i.e., they will not suffer the additional flesh wound) unless, otherwise noted. If a fighter is wearing an armoured bodyglove, their save roll is improved by 1. For example, if they are wearing Flak armour and an armoured bodyglove, they would have a 5+ save, which would be increased to 4+ against Blasts. If a fighter does not already have a save roll, an armoured bodyglove grants a 6+ save. An armoured bodyglove may be combined with other types of armour. It may not however be combined with an armoured undersuit."/>
+      </characteristics>
+    </profile>
+    <profile id="2c00-3a0d-1c48-5704" name="Carapace Armour - Light" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Light carapace armour grants a 4+ save roll."/>
+      </characteristics>
+    </profile>
+    <profile id="c7d1-a52d-5e46-fe10" name="Carapace Armour - Heavy" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Heavy carapace armour grants a 4+ save roll. This is increased to 3+ against attacks originating within the fighter’s vision arc (the 90° arc to their front); check this before the fighter model is placed prone and is Pinned. If it is not clear if the attacker is within the fighter’s arc, use a Vision Arc template to check – if the centre of the attacker’s base is within the arc, use the 3+ save roll. Against attacks with the Blast trait, use the centre of the Blast marker in place of the attacker. If the fighter does not have a facing (for example, if they are prone), use the 4+ save roll. However, due to the extra weight of this armour, the fighter’s Initiative is reduced by 1 and their movement by 1&quot; when making a Charge action."/>
+      </characteristics>
+    </profile>
+    <profile id="6a56-4879-05a6-aeb6" name="Furnace Plates" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Furnace plates grant a 6+ save roll. This is increased to 5+ against attacks originating within the fighter’s vision arc (the 90° arc to their front); check this before the fighter model is placed prone and is Pinned. If it is not clear if the attacker is within the fighter’s arc, use a Vision Arc template to check – if the centre of the attacker’s base is within the arc, use the 5+ save roll. Against attacks with the Blast trait, use the centre of the Blast marker in place of the attacker. If the fighter does not have a facing (for example, if they are prone), use the 6+ save roll."/>
+      </characteristics>
+    </profile>
+    <profile id="2736-ada6-cc5c-d8c5" name="Mesh Armour" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Mesh armour grants a 5+ save roll."/>
       </characteristics>
     </profile>
   </sharedProfiles>
