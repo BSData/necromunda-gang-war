@@ -2838,7 +2838,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="596c-e0b1-bd4b-18fe" name="Medicae" hidden="false" targetId="19cd-8f3c-5cfc-6436" type="profile">
+        <infoLink id="596c-e0b1-bd4b-18fe" name="Medicae kit" hidden="false" targetId="e479-e830-11be-dee7" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5917,7 +5917,7 @@
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d41-17b5-0132-e0d6" name="Webber" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0d41-17b5-0132-e0d6" name="Web gun" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -7503,6 +7503,69 @@
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fd65-e95c-8271-d396" name="Conversion Field" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3ac5-294e-568a-54e3" name="Conversion Field" hidden="false" targetId="5bb1-03c2-ae0b-1294" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c56-9813-f3c1-7c59" name="Displacer Field" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9755-c8e9-6c86-7650" name="Displacer Field" hidden="false" targetId="51e9-9a81-a1f8-a84b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da86-6ba7-e3c3-1cc1" name="Refractor Field" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3b28-d1b1-40db-f12c" name="Refractor Field" hidden="false" targetId="3a6a-8271-7e27-cebe" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6568-3fd4-2fd6-b3ae" name="Leadership Skills" hidden="false" collective="false">
@@ -8233,6 +8296,14 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="c11c-3a37-368d-f65a" name="Sawn-off Shotgun" hidden="false" targetId="0e2c-a8f6-bc2e-dce6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="4aa6-19f9-b3bd-371c" name="Rare (7)" hidden="false" collective="false">
@@ -8246,6 +8317,32 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="a365-4501-50c9-8c97" name="Combat Shotgun" hidden="false" targetId="add3-7d16-aeb5-6059" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="append" field="name" value="(with Salvo &amp; Shredder Ammo)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d9ee-67c6-c327-ac68" name="Rare (8)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c589-5663-53e0-d30c" name="Boltgun" hidden="false" targetId="2931-3e8d-9358-3d02" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8321,6 +8418,22 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="1b2e-0f87-5912-356b" name="Needle Pistol" hidden="false" targetId="df5c-1821-3a61-0240" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4ab8-6cf3-9074-c69e" name="Web Pistol" hidden="false" targetId="d88f-ce09-30f8-8c1f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="48db-e6fd-8d4a-8fd1" name="Rare (11)" hidden="false" collective="false">
@@ -8334,6 +8447,54 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="219e-e41d-919d-81bf" name="Plasma/Stub Combi-pistol" hidden="false" targetId="e302-f841-34e3-eb29" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a958-08bc-a40f-e637" name="Rare (8)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="8edf-597e-7e2d-4571" name="Bolt Pistol" hidden="false" targetId="20ee-0093-0f07-6480" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="71fe-452d-97fc-e9fe" name="Hand Flamer" hidden="false" targetId="0268-eeed-ed95-176c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6032-6e1f-a197-c110" name="Common (Delaque)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="3ea9-bbae-22d5-b840" name="Web Pistol" hidden="false" targetId="d88f-ce09-30f8-8c1f" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8366,6 +8527,166 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="66f3-2c1c-075d-d67b" name="Grenade Launcher" hidden="false" targetId="ac72-264a-b99b-5236" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0a18-7557-fd28-668a" name="Bolter/flamer combi-weapon" hidden="false" targetId="5cb9-d817-c289-94a4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2e40-93a5-1387-fb00" name="Rare (9)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="606d-b976-d3bb-850e" name="Web gun" hidden="false" targetId="0d41-17b5-0132-e0d6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="5635-5af9-cba4-274d" name="Needle Rifle" hidden="false" targetId="aa7c-4915-10bc-b483" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="bfdd-3191-2f27-0391" name="Plasma Gun" hidden="false" targetId="e760-b239-367c-0427" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d3ed-7c1d-ee67-415b" name="Rare (10)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="4f40-2286-4216-9baf" name="Bolter/needler combi-weapon" hidden="false" targetId="fced-c176-08b6-7c36" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fef7-8b56-4bb3-adb2" name="Bolter/plasma combi-weapon" hidden="false" targetId="035b-a21a-149b-d947" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="da46-8a3c-8399-a606" name="Rare (11)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="73a0-871f-6f0a-d861" name="Grav-gun" hidden="false" targetId="9e07-85df-677d-4caf" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0dae-3b7b-3e92-9107" name="Meltagun" hidden="false" targetId="803c-78a8-d848-cd19" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8547-8683-3152-2696" name="Common" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="4cc4-a955-24aa-78c7" name="Long Las" hidden="false" targetId="2cc4-3ec8-e643-2a57" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c107-3522-cd10-5dd7" name="Common (Delaque)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="9b6e-bdb7-9f32-7fd6" name="Web gun" hidden="false" targetId="0d41-17b5-0132-e0d6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="990d-af55-7f48-5b30" name="Rare (12)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="3735-8a48-42ae-db95" name="Bolter/melta combi-weapon" hidden="false" targetId="37ed-2415-0f46-f7d1" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8465,6 +8786,14 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="e7f3-bb05-4213-bbb5" name="Stimm-slug stash" hidden="false" targetId="e3d2-5872-cec8-c4af" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="5836-0690-153f-e177" name="Rare (8)" hidden="false" collective="false">
@@ -8493,6 +8822,14 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="e83d-38a4-65fe-4fa9" name="Bio-booster" hidden="false" targetId="68e9-c947-4321-121b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="87f8-b401-0930-fb3d" name="Rare (9)" hidden="false" collective="false">
@@ -8505,7 +8842,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="5105-0277-12fd-5748" name="Medicae" hidden="false" targetId="0d3e-af42-9b45-2758" type="selectionEntry">
+                <entryLink id="8ace-c96c-34f8-fc15" name="Photo-goggles" hidden="false" targetId="3e36-a84c-e1bc-2fa5" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8513,7 +8850,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="8ace-c96c-34f8-fc15" name="Photo-goggles" hidden="false" targetId="3e36-a84c-e1bc-2fa5" type="selectionEntry">
+                <entryLink id="b1a7-c7ad-d5c7-5ab5" name="Medicae kit" hidden="false" targetId="f309-c266-6e97-9069" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8563,6 +8900,26 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="2979-77d7-c96d-40cb" name="Rare (12)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="4e5a-05d5-b8b6-3d39" name="Chem-Synth" hidden="false" targetId="783c-0aca-c186-95b5" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
         </selectionEntryGroup>
@@ -8601,6 +8958,38 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="887b-cf92-128b-fabb" name="Flail" hidden="false" targetId="8557-00f4-c2d2-b327" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="cbc8-f816-8339-9bf0" name="Club, maul or hammer" hidden="false" targetId="9354-6d02-e98d-cac3" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4d1b-03e0-e37a-7a6c" name="Two-handed Axe" hidden="false" targetId="d44f-d8ab-d95d-598b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fd1c-dde7-7034-b7f3" name="Two-handed Hammer" hidden="false" targetId="ac48-ee45-8e95-00a3" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="af72-62a8-55fc-6141" name="Rare (9)" hidden="false" collective="false">
@@ -8614,6 +9003,218 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="467a-91bd-a7d8-18cd" name="Power Sword" hidden="false" targetId="964b-8088-03e0-5e15" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="3388-0366-a378-1fce" name="Power Knife" hidden="false" targetId="e072-40b9-0c8c-fc27" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="1978-1e23-6648-9696" name="Stiletto Knife" hidden="false" targetId="d449-22c2-4378-77dd" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6cee-7b98-0ba9-b6d5" name="Chainaxe" hidden="false" targetId="1fc9-831a-4136-0f8f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4075-9cb8-fab8-d61c" name="Stiletto Sword" hidden="false" targetId="ebbf-6085-1873-ea0f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="de33-9366-f331-f64a" name="Shock Stave" hidden="false" targetId="42c4-4abf-bbfa-ab2c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="93c3-6715-08b5-5834" name="Heavy Rock Cutter" hidden="false" targetId="09b2-1d09-c386-c808" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="d4e5-9e82-e8db-6b1b" name="Heavy Rock Drill" hidden="false" targetId="25bd-520e-07a5-9d0a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="a622-c15f-70d3-d138" name="Heavy Rock Saw" hidden="false" targetId="0be2-e5fb-0575-7e4e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8314-1b94-ec90-381a" name="Rare (8)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="d741-09e8-343c-97f1" name="Chainsword" hidden="false" targetId="6b82-6493-bf6f-1ee4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="12ca-ac70-20c7-8471" name="Power Axe" hidden="false" targetId="7347-94a6-96c4-4abc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="d4bc-8a21-956a-32af" name="Power Hammer" hidden="false" targetId="c8ee-fe4c-b416-3c09" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="a579-c0bb-534f-7e68" name="Power Maul" hidden="false" targetId="86c3-829c-98dd-dfe7" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="74b1-6b3e-b906-cc4a" name="Shock Baton" hidden="false" targetId="33ea-ccb8-c2a4-e825" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ae9b-a130-f6e1-fc10" name="Rare (10)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="2397-d04c-bbb9-6a1a" name="Digi Laser" hidden="false" targetId="a65f-17e0-9f85-f81a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="669a-2929-dc44-e2d9" name="Servo-claw" hidden="false" targetId="f3c9-d9fa-931b-c3e3" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="3e41-9367-c689-a3ab" name="Las Cutter" hidden="false" targetId="3e46-80bc-a339-0fc8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c9a7-c750-5344-4bb9" name="Rare (6)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="4b70-2a26-0d20-fe13" name="Sword" hidden="false" targetId="d9e5-7abc-eeb7-f823" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="46c0-56a1-9622-cdef" name="Rare (11)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c2e6-8db5-8073-8232" name="Thunder Hammer" hidden="false" targetId="2353-fa8b-99f0-69dc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="eae0-dabd-26d4-6c7f" name="Rare (8 Goliath &amp; Orlock)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="f9e2-09d0-5d40-8a5f" name="Heavy Rock Cutter" hidden="false" targetId="09b2-1d09-c386-c808" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8761,6 +9362,14 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="cc60-52ed-718a-1f07" name="Smoke Grenade" hidden="false" targetId="cd87-0c9c-bf36-bd18" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="9ffc-835d-21bf-50dd" name="Rare (8)" hidden="false" collective="false">
@@ -8774,6 +9383,14 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="c472-9da5-1e48-cbec" name="Krak Grenade" hidden="false" targetId="8744-dc35-e915-e11d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="57f3-9c92-9570-13a7" name="Blasting Charge" hidden="false" targetId="10c5-3497-b5c4-375c" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8801,6 +9418,94 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="f352-ca78-a6bf-409f" name="Photon Flash Flare" hidden="false" targetId="d58b-5995-10cf-41b8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d221-98e8-4b7e-ee57" name="Rare (12)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="0dde-b555-c56d-12bb" name="Demolition Charge" hidden="false" targetId="2eb6-8657-d03b-e969" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3b6a-5b06-9f83-df99" name="Rare (7)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="0888-f620-7a77-517b" name="Incendiary Charge" hidden="false" targetId="6621-f2ff-d2b7-f129" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3291-23f6-3b5f-c37a" name="Rare (11)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="bfad-c395-e189-4e4e" name="Melta Bomb" hidden="false" targetId="c704-b7eb-c457-c13f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a882-a64b-ccec-4adb" name="Rare (10)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="aada-baed-b94d-f99b" name="Scare Gas Grenade" hidden="false" targetId="1bb0-8a3a-0f6c-d924" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -8815,7 +9520,7 @@
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="a84f-f762-4bbc-1ca4" name="Common" hidden="false" collective="false">
+            <selectionEntryGroup id="a84f-f762-4bbc-1ca4" name="Rare (7)" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8825,7 +9530,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="a3fd-3280-066a-d34d" name="Stub gun - Dumdum rounds" hidden="false" targetId="cd74-7974-0214-b5a9" type="selectionEntry">
+                <entryLink id="a3fd-3280-066a-d34d" name="Stub Gun - Dumdum rounds" hidden="false" targetId="cd74-7974-0214-b5a9" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8881,7 +9586,16 @@
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="f900-ec92-b600-b5d0" name="Grenade Launcher - Choke gas grenade" hidden="false" targetId="6077-4268-d309-4062" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="4ef8-ea63-700f-9580" name="Rare (10)" hidden="false" collective="false">
               <profiles/>
@@ -8892,7 +9606,348 @@
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="b38b-d7e8-e3b7-3e3b" name="Grenade Launcher - Scare gas grenade" hidden="false" targetId="37cc-4a64-9ebd-11ee" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="95f3-e630-ecdf-09b7" name="Common" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="adce-6111-684a-9344" name="Grenade Launcher - Smoke grenade" hidden="false" targetId="44e6-e644-0b79-1bde" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9ca4-820a-e4bd-a4bf" name="Heavy Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="49e2-adfc-2a9f-f5bc" name="Rare (10)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="f6a6-cd94-09e1-5383" name="Heavy Bolter" hidden="false" targetId="1c2e-ceac-d033-18e4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="1c1e-d0a3-31f3-1f45" name="Heavy Flamer" hidden="false" targetId="c95c-b2de-dab6-1ee7" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="ea1a-2ba2-a696-ec16" name="Lascannon" hidden="false" targetId="f937-fcdc-cb05-08d1" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="50f9-9241-4bf0-5a86" name="Missile Launcher" hidden="false" targetId="522c-92e4-2b28-9877" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="735f-015b-8d78-f27f" name="Seismic Cannon" hidden="false" targetId="b843-6364-41fa-9821" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6e77-7d70-c337-5a96" name="Rare (7)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c4c0-b3f5-d73d-a20d" name="Heavy Stubber" hidden="false" targetId="8476-a406-07f8-35e6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="102c-66cb-bbb2-f945" name="Rare (9)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="6c92-9fb7-94cd-1075" name="Mining Laser" hidden="false" targetId="6a35-9202-72a4-4538" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="873e-6052-5460-d6a4" name="Rare (8 Orlock)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="a876-7ca6-d443-2848" name="Mining Laser" hidden="false" targetId="6a35-9202-72a4-4538" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7f85-992a-3262-362b" name="Rare (11)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="1d0d-17d7-518c-e991" name="Multi-melta" hidden="false" targetId="b421-d6c8-223d-d098" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="2530-92c0-9925-ea85" name="Plasma Cannon" hidden="false" targetId="09d1-8365-da95-57a5" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="539b-1568-268e-ed31" name="Armour" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5a01-d01c-a40b-0bc4" name="Common" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="5843-7ca7-6e35-a2ac" name="Flak Armour" hidden="false" targetId="2f39-c31c-ada3-8ef1" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="5b1b-cdaf-4a33-9bf7" name="Mesh Armour" hidden="false" targetId="8c77-5bd4-b745-d608" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c1d1-093a-5cac-a901" name="Rare (10)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="6e42-5a39-f573-7ccb" name="Carapace Armour - Light" hidden="false" targetId="4dea-cd71-0633-64ea" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8ec5-413f-4bc2-3ee0" name="Hazard Suit" hidden="false" targetId="bffc-5aaa-874d-b46e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a372-24d7-a39a-3a22" name="Rare (11)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b3f4-ca84-9fa7-f0e7" name="Carapace Armour - Heavy" hidden="false" targetId="0305-13d5-7705-059f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5fa8-62b6-7318-f713" name="Field Armour" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3184-c9f8-90af-9a87" name="Rare (10)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c420-8cfe-149f-e5a1" name="Refractor Field" hidden="false" targetId="da86-6ba7-e3c3-1cc1" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7a61-40e2-b056-8d90" name="Rare (11)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="7ae8-6d11-0460-1463" name="Conversion Field" hidden="false" targetId="fd65-e95c-8271-d396" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="9903-88a6-2e91-7d74" name="Rare (12)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="426e-3a7f-bac3-8a1f" name="Displacer Field" hidden="false" targetId="9c56-9813-f3c1-7c59" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
@@ -10975,7 +12030,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="When a fighter with a Medicae kit assists a friendly figher&apos;s Recovery test, roll an extra Injury dice then choose one to discard."/>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="When a fighter with a Medicae kit assists a friendly fighter’s Recovery test, roll an extra injury dice then choose one to discard."/>
       </characteristics>
     </profile>
     <profile id="d82d-e4e9-ce0a-c826" name="Armoured undersuit" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
@@ -11928,7 +12983,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Unwieldy"/>
       </characteristics>
     </profile>
-    <profile id="1461-f0f8-c8f9-ba97" name="Webber" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+    <profile id="1461-f0f8-c8f9-ba97" name="Web gun" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12643,6 +13698,33 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Mesh armour grants a 5+ save roll."/>
+      </characteristics>
+    </profile>
+    <profile id="5bb1-03c2-ae0b-1294" name="Conversion Field" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca"/>
+      </characteristics>
+    </profile>
+    <profile id="51e9-9a81-a1f8-a84b" name="Displacer Field" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca"/>
+      </characteristics>
+    </profile>
+    <profile id="3a6a-8271-7e27-cebe" name="Refractor Field" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca"/>
       </characteristics>
     </profile>
   </sharedProfiles>
