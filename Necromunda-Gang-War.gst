@@ -332,13 +332,29 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="-">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3543-33b8-2d23-60a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="13ec-2534-69b6-c745" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
         <infoLink id="b331-68d6-0009-285b" name="Plentiful" hidden="false" targetId="c823-a12f-6b9f-635c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3543-33b8-2d23-60a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="13ec-2534-69b6-c745" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -353,6 +369,16 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="13ec-2534-69b6-c745" name="Hotshot Las Pack" hidden="false" targetId="faed-6762-aaf3-6f87" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96fb-bbeb-ca30-ea24" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1265,7 +1291,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="Pistol">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="cd74-7781-d3f5-1a7a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf82-d9a2-cc89-d3d0" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
         <infoLink id="f30c-f9cc-6bb4-ea79" name="Pistol" hidden="false" targetId="3470-68c6-32c7-1662" type="rule">
           <profiles/>
@@ -1277,7 +1311,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="cd74-7781-d3f5-1a7a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf82-d9a2-cc89-d3d0" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -1292,6 +1334,16 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bf82-d9a2-cc89-d3d0" name="Hotshot Las Pack" hidden="false" targetId="faed-6762-aaf3-6f87" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="513f-12d3-f225-b868" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -7228,7 +7280,16 @@
           <modifiers>
             <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi, Plentiful">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="4dd6-8b90-1374-41fe" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f296-df70-029e-bceb" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4dd6-8b90-1374-41fe" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf82-d9a2-cc89-d3d0" type="greaterThan"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -7255,7 +7316,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4dd6-8b90-1374-41fe" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf82-d9a2-cc89-d3d0" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
         <infoLink id="61e8-a24a-e158-8b65" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
           <profiles/>
@@ -7284,6 +7353,16 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f296-df70-029e-bceb" name="Hotshot Las Pack" hidden="false" targetId="faed-6762-aaf3-6f87" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47d-8e96-8763-fa31" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="75.0"/>
@@ -7302,7 +7381,16 @@
           <modifiers>
             <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi, Plentiful">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="82fb-6dd3-c886-ef20" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f296-df70-029e-bceb" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="bba1-4dba-91f0-91cd" value="Combi">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="82fb-6dd3-c886-ef20" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf82-d9a2-cc89-d3d0" type="greaterThan"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -7329,7 +7417,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="82fb-6dd3-c886-ef20" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7bfb-57ae-3149-1dee" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
         <infoLink id="1c9e-fceb-b8bd-6912" name="Melta" hidden="false" targetId="a734-67b7-aee3-1980" type="rule">
           <profiles/>
@@ -7356,6 +7452,16 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7bfb-57ae-3149-1dee" name="Hotshot Las Pack" hidden="false" targetId="faed-6762-aaf3-6f87" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6857-ac30-a531-74fe" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -7522,6 +7628,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="60.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c56-9813-f3c1-7c59" name="Displacer Field" hidden="false" collective="false" type="upgrade">
@@ -7543,6 +7651,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="70.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da86-6ba7-e3c3-1cc1" name="Refractor Field" hidden="false" collective="false" type="upgrade">
@@ -7550,6 +7660,176 @@
       <rules/>
       <infoLinks>
         <infoLink id="3b28-d1b1-40db-f12c" name="Refractor Field" hidden="false" targetId="3a6a-8271-7e27-cebe" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8226-4580-b92c-dd35" name="Servo harness - partial" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f262-2572-5b1a-6f2b" name="Servo harness - partial" hidden="false" targetId="924b-7275-441c-dde8" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="183f-3990-163c-a88e" name="Servo harness - full" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6b33-9ff3-0cf9-67d0" name="Servo harness - full" hidden="false" targetId="9ceb-a2ef-eae3-b7ca" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef8d-0289-ec96-8040" name="Web solvent" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="27c5-9cdd-d5b9-9436" name="Web solvent" hidden="false" targetId="203b-7d7e-7e48-ca50" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="faed-6762-aaf3-6f87" name="Hotshot Las Pack" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bd61-439c-22bc-42a4" name="Hotshot Las Pack" hidden="false" targetId="b208-fd1d-5964-f334" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a112-cdc8-d39e-8710" name="Gold-Plated Gun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3f77-113a-7fca-1c95" name="Gold-Plated Gun" hidden="false" targetId="f5d1-0a80-ddb5-718b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4fc-82a1-47cd-1b47" name="Exotic Furs" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cb32-9a0a-c5d6-a09d" name="Exotic Furs" hidden="false" targetId="8c8c-d3ae-e72f-f576" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd76-f25b-55ab-01ec" name="Opulent Jewellery" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d8d8-4345-e0bc-9eef" name="Opulent Jewellery" hidden="false" targetId="ff43-8c26-ef09-1c8b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce24-9a17-2672-0bdd" name="Uphive Raiments" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4f5b-a798-f236-0421" name="Uphive Raiments" hidden="false" targetId="1a55-838d-ce4d-d036" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8918,6 +9198,78 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="d8f5-a9b0-c397-ae67" name="Servo harness - partial" hidden="false" targetId="8226-4580-b92c-dd35" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="678c-352d-af68-39e5" name="Servo harness - full" hidden="false" targetId="183f-3990-163c-a88e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="94a4-e066-1478-0f7b" name="Rare (11 Goliath &amp; Orlock)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="2976-338e-594e-caae" name="Servo harness - full" hidden="false" targetId="183f-3990-163c-a88e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6df0-0830-5c21-c7d2" name="Servo harness - partial" hidden="false" targetId="8226-4580-b92c-dd35" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="88ad-e477-9fbc-ec51" name="Rare (10 Van Saar)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="4d3f-0669-7e41-65b6" name="Servo harness - full" hidden="false" targetId="183f-3990-163c-a88e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="9207-247f-af8c-42c8" name="Servo harness - partial" hidden="false" targetId="8226-4580-b92c-dd35" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -9247,6 +9599,14 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="726b-bedb-1fd9-dab5" name="Telescopic sight" hidden="false" targetId="4b8f-d5a9-3bda-f249" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="97ba-be15-8280-6864" name="Hotshot Las Pack" hidden="false" targetId="faed-6762-aaf3-6f87" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -9953,7 +10313,16 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2f59-f49e-8961-ef7a" name="Status Items (Leader/Champion)" hidden="false" targetId="7f55-08cc-6feb-ef10" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="25c7-bf4b-5b5d-c640" name="Weapon Attachments" hidden="false" collective="false">
       <profiles/>
@@ -9975,6 +10344,14 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="94ba-a48a-63dc-534c" name="Telescopic sight" hidden="false" targetId="4b8f-d5a9-3bda-f249" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="49e4-e364-bfbe-daff" name="Hotshot Las Pack" hidden="false" targetId="faed-6762-aaf3-6f87" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10120,6 +10497,30 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="024e-8fd9-5fa8-433f" name="Gold-Plated Gun" hidden="false" targetId="a112-cdc8-d39e-8710" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f48-3cf7-6934-2b29" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e3c-093e-fc09-60c2" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47d3-79a4-7bd1-d240" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f80c-509b-3e97-ce33" name="Basic Weapon Upgrades" hidden="false" collective="false">
@@ -10187,6 +10588,30 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="09b9-d54c-fb3d-1ff8" name="Gold-Plated Gun" hidden="false" targetId="a112-cdc8-d39e-8710" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f48-3cf7-6934-2b29" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e3c-093e-fc09-60c2" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ce8-98d6-7c0b-8bd3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1bb3-418d-16df-d5ea" name="Heavy Weapon Upgrades" hidden="false" collective="false">
@@ -10237,6 +10662,30 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe0e-52b7-3ec5-b10b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bc2e-7037-0a37-e946" name="Gold-Plated Gun" hidden="false" targetId="a112-cdc8-d39e-8710" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f48-3cf7-6934-2b29" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e3c-093e-fc09-60c2" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f1-f278-cc96-cbc5" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -10297,6 +10746,30 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cc10-7ecb-ec4e-71f6" name="Gold-Plated Gun" hidden="false" targetId="a112-cdc8-d39e-8710" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f48-3cf7-6934-2b29" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e3c-093e-fc09-60c2" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96e3-072b-8f4c-50f5" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -10587,6 +11060,109 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7f55-08cc-6feb-ef10" name="Status Items (Leader/Champion)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="146e-9452-778e-a07c" name="Extravagant Goods" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="378b-947f-4673-7ec2" name="Rare (10)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="30cd-435d-a942-a94b" name="Gold-Plated Gun" hidden="false" targetId="a112-cdc8-d39e-8710" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6fb7-d404-dc5c-e759" name="Uphive Raiments" hidden="false" targetId="ce24-9a17-2672-0bdd" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="9e8a-250b-83c2-f14e" name="Rare (11)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="caa3-54c4-0c9c-ea24" name="Opulent Jewellery" hidden="false" targetId="dd76-f25b-55ab-01ec" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7e59-9b7a-7090-d019" name="Rare (12)" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="faa5-5781-fc35-dad0" name="Exotic Furs" hidden="false" targetId="b4fc-82a1-47cd-1b47" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e646-5016-e5c5-2967" name="Servo Skulls" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -11164,7 +11740,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
         <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
         <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
         <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
-        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value=""/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="-"/>
       </characteristics>
     </profile>
     <profile id="a95c-9377-60c6-2edd" name="Laspistol" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
@@ -13706,7 +14282,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca"/>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="When a fighter wearing a conversion field is hit by an attack, roll a D6. On a 5+, the conversion field works and the attack has no further effect. However, any fighters, friend or foe, within 3’’ of the wearer count as being hit by a weapon with the Flash trait as the field reacts in a tremendous burst of light. Note that the wearer is unaffected by this flash of light as they are inside the field."/>
       </characteristics>
     </profile>
     <profile id="51e9-9a81-a1f8-a84b" name="Displacer Field" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
@@ -13715,7 +14291,10 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca"/>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="If a fighter wearing a displacer field is hit, roll a D6. On a 4+, the fighter is moved a number of inches equal to the Strength of the attack in a random direction, determined by rolling a Scatter dice, and the hit is ignored (even if any port of the fighter is still under the template – if the attack used one – after being displaced). A displacer field will not deposit its wearer inside a terrain feature, the fighter will move by the shortest route possible so that it can be placed clear of any impassable terrain features. Similarly, the fighter’s base cannot overlap another fighter’s base and the wearer must be moved by the shortest route possible until its base can be placed without overlapping. Note that the wearer may end up within 1’’ of an enemy fighter and may even end up Engaged as a result of being displaced.
+However, displacer fields are notoriously oblivious to safe footings. In a Zone Mortalis game, a fighter wearing a displacer field may be deposited above a pit fall or similar hazard. In a Sector Mechanicus game, a fighter above ground level may simply be flung into the open air. If any part of the fighter’s base ends overhanging a hazard or overhanging a platform edge, the fighter must pass an initiative test or will fall, following all the rules for falling as required by the terrain type being fought over. If the entirety of the fighter&apos;s base is over a hazard or in the open air, they will simply fall.
+If a fighter wearing a displacer field is transported off the board, they immediately go Out of Action.
+If an attack does not have a Strength value, then a displacer field cannot work against it."/>
       </characteristics>
     </profile>
     <profile id="3a6a-8271-7e27-cebe" name="Refractor Field" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
@@ -13724,7 +14303,80 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca"/>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="When a fighter wearing a refractor field is hit by an attack, roll a D6. On a 5+ the hit is ignored.
+However, should the field work and the hit be ignored, roll another D6. If the result is a 1, then the field has been overburdened by the attack and its generator is burned out. Remove the refractor field from the fighter’s card, it no longer works."/>
+      </characteristics>
+    </profile>
+    <profile id="9ceb-a2ef-eae3-b7ca" name="Servo harness - full" book="GW3" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="A fighter wearing a full servo harness gains a +2 modifier to their Strength characteristic and a +1 modifier to their Toughness characteristic. This may take them above their maximum characteristics but it is not a permanent increase and will be lost should the servo harness be lost or cease to function for any reason. Additionally, a fighter wearing full servo harness gains the benefits of suspensors on any Unwieldy ranged weapon they carry. A fighter wearing a full servo harness gains all of the benefits of a partial servo harness, but without the negative modifiers to Movement and Initiative. This item cannot be combined with a servo claw or any other type of servo harness."/>
+      </characteristics>
+    </profile>
+    <profile id="924b-7275-441c-dde8" name="Servo harness - partial" book="GW3" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="A fighter wearing a partial servo harness gains a +2 modifier to their Strength characteristic and a +1 modifier to their Toughness characteristic. This may take them above their maximum characteristics but it is not a permanent increase and will be lost should the servo harness be lost or cease to function for any reason. Additionally, a fighter wearing partial servo harness gains the benefits of suspensors on any Unwieldy ranged weapon they carry. However, a fighter wearing a partial servo harness reduces their Movement and Initiative by 1. This item cannot be combined with a servo claw or any other type of servo harness."/>
+      </characteristics>
+    </profile>
+    <profile id="203b-7d7e-7e48-ca50" name="Web solvent" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="A Webbed fighter equipped with web solvent rolls an extra Injury dice in the Recovery phase, picking one of the dice to resolve and discarding the other. Additionally, when a fighter equipped with web solvent assists a Webbed fighter with a Recovery test, roll an extra two Injury dice and choose which one to apply."/>
+      </characteristics>
+    </profile>
+    <profile id="b208-fd1d-5964-f334" name="Hotshot Las Pack" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="At the expense of reliability, a lasgun or laspistol can be fitted with a hotshot las pack, increasing its Strength to 4 and Armour Penetration to -1. However, the weapon loses the Plentiful trait and its Ammo value is reduced to 4+."/>
+      </characteristics>
+    </profile>
+    <profile id="f5d1-0a80-ddb5-718b" name="Gold-Plated Gun" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Any weapon can be gold-plated. A fighter with a gold-plated gun adds +1 to their Leadership characteristic. Additionally, once per game, the fighter may re-roll a failed Ammo check."/>
+      </characteristics>
+    </profile>
+    <profile id="8c8c-d3ae-e72f-f576" name="Exotic Furs" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="Should this fighter make a Seek Rare Equipment action in the post-battle sequence, they add an additional +1 modifier to the dice roll to determine the rarity of the items on offer."/>
+      </characteristics>
+    </profile>
+    <profile id="ff43-8c26-ef09-1c8b" name="Opulent Jewellery" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="If this fighter makes a Medical Escort action in the post-battle sequence [...] You may re-roll the dice when determining the fee the Doc charges, but you must accept the second result, even if it is worse."/>
+      </characteristics>
+    </profile>
+    <profile id="1a55-838d-ce4d-d036" name="Uphive Raiments" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="This ganger generates D6+1x10 credits when working the gang’s Turf as a post-battle action."/>
       </characteristics>
     </profile>
   </sharedProfiles>
