@@ -1404,7 +1404,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c321-7caf-e0e4-ea34" name="Showgun, Solid Slug" hidden="false" targetId="ed49-d488-c31d-460e" type="profile">
+        <infoLink id="c321-7caf-e0e4-ea34" name="Shotgun - Solid Slug" hidden="false" targetId="ed49-d488-c31d-460e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4629,13 +4629,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="65a3-a5f1-8128-7b7a" name="Parry" hidden="false" targetId="3371-1077-dea5-38ab" type="rule">
+        <infoLink id="d07a-9c55-68b9-ebe3" name="Rending" hidden="false" targetId="110d-dba3-c3bf-1297" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0ba7-1137-f62f-1d80" name="Rending" hidden="false" targetId="110d-dba3-c3bf-1297" type="rule">
+        <infoLink id="769c-3621-8e87-f2ce" name="Parry" hidden="false" targetId="3371-1077-dea5-38ab" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7697,6 +7697,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="130.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="183f-3990-163c-a88e" name="Servo harness - full" hidden="false" collective="false" type="upgrade">
@@ -7718,6 +7720,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="160.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef8d-0289-ec96-8040" name="Web solvent" hidden="false" collective="false" type="upgrade">
@@ -7739,6 +7743,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="25.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="faed-6762-aaf3-6f87" name="Hotshot Las Pack" hidden="false" collective="false" type="upgrade">
@@ -7760,6 +7766,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a112-cdc8-d39e-8710" name="Gold-Plated Gun" hidden="false" collective="false" type="upgrade">
@@ -7781,6 +7789,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="40.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4fc-82a1-47cd-1b47" name="Exotic Furs" hidden="false" collective="false" type="upgrade">
@@ -7802,6 +7812,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd76-f25b-55ab-01ec" name="Opulent Jewellery" hidden="false" collective="false" type="upgrade">
@@ -7823,6 +7835,8 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="80.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce24-9a17-2672-0bdd" name="Uphive Raiments" hidden="false" collective="false" type="upgrade">
@@ -7844,6 +7858,401 @@
       <entryLinks/>
       <costs>
         <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e183-9bfd-70af-754b" name="Polearm/autogun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1323-fca6-0c0e-5510" name="Autogun" hidden="false" targetId="1a80-d178-edce-82fd" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="6c4b-e6b7-46ee-0d0f" value="5+">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8bd8-a071-b61e-8528" name="Polearm" hidden="false" targetId="26d2-f2fd-5802-e707" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f6fd-b548-e825-a1c2" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1bb9-a196-a3c9-eb1b" name="Basic Weapon Upgrades" hidden="false" targetId="f80c-509b-3e97-ce33" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c2c-a43f-6f07-422e" name="Polearm/Blunderbuss" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="591b-a4c8-6479-974f" name="Polearm" hidden="false" targetId="26d2-f2fd-5802-e707" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6d93-e862-0ec1-853d" name="Bluderbuss - Grape shot" hidden="false" targetId="eeea-9140-bfb8-bd94" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c21e-a11f-8943-f020" name="Bluderbuss - Purgation shot" hidden="false" targetId="ee5e-d79a-1806-4e84" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ed88-6125-d6ae-f6ec" name="Basic Weapon Upgrades" hidden="false" targetId="f80c-509b-3e97-ce33" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2bf7-61e7-7eeb-e830" name="Emperor&apos;s Wrath rounds" hidden="false" targetId="c839-abf6-84fa-992f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="2bf7-61e7-7eeb-e830" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a215-7b07-70bb-a2df" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ac2-f00e-0073-91ba" name="Reclaimed autogun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d7f0-2ab2-f533-b329" name="Autogun" hidden="false" targetId="1a80-d178-edce-82fd" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="6c4b-e6b7-46ee-0d0f" value="5+">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="name" value="Reclaimed autogun">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bdcf-5cbe-8d30-ed16" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0409-f3c4-93b2-715f" name="Basic Weapon Upgrades" hidden="false" targetId="f80c-509b-3e97-ce33" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ae0-2ad4-f986-59ca" name="Autogun/flamer - Combi-weapon" page="69" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f57a-2a1a-b14b-9256" name="Autogun" hidden="false" targetId="1a80-d178-edce-82fd" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="bba1-4dba-91f0-91cd" value=", Combi">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7ca6-dd15-1bc3-356a" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d9e4-7f4e-2861-c703" name="Flamer" hidden="false" targetId="256e-f8f4-a4a7-2e93" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="bba1-4dba-91f0-91cd" value=", Combi">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b873-98ed-9707-a8f9" name="Special Weapon Upgrades" hidden="false" targetId="f573-de72-3b41-60d3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="15.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c65d-9790-88a7-279b" name="Long Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7b00-f390-a93a-50c5" name="Knockback" hidden="false" targetId="6f45-fb3d-aa2a-c502" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7b04-69ef-9bbf-d14f" name="Long Rifle" hidden="false" targetId="252d-ca16-b001-2459" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9b87-53bb-8332-9769" name="Special Weapon Upgrades" hidden="false" targetId="f573-de72-3b41-60d3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbba-d1be-9b77-6dfd" name="Heavy Crossbow" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="2.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="125.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c839-abf6-84fa-992f" name="Emperor&apos;s Wrath rounds" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="730c-55c0-7faf-1721" name="Bluderbuss - Emperor&apos;s Wrath" hidden="false" targetId="6d5f-8a2a-70f6-aa7d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="35.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32d5-b21c-d9b0-5414" name="Reclaimed autopistol" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ad4a-df3d-a080-0ed7" name="Autopistol" hidden="false" targetId="bfc9-00f1-ff8a-0483" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="6c4b-e6b7-46ee-0d0f" value="5+">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="name" value="Reclaimed autopistol">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="6420-b37b-f34f-ba9b" value="3&quot;">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e35e-37e5-ef32-3e0e" name="Pistol" hidden="false" targetId="3470-68c6-32c7-1662" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ea7-f247-5878-6a5f" name="Rapid Fire (x)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="db01-b321-3093-d887" name="Pistol Upgrades" hidden="false" targetId="ef25-38a1-1add-86b7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="5.0"/>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d13-f01d-4359-04d0" name="Chainglaive" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="973c-8cae-67f5-9160" name="Chainglaive" hidden="false" targetId="668e-67b5-2693-26be" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="39b0-2e29-7dd8-a529" name="Melee" hidden="false" targetId="c63b-2043-2de7-42b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b8cd-6a84-a92f-022d" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Melee)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b645-1555-f0e3-c558" name="Versatile" hidden="false" targetId="42d3-40cf-01c8-e3fc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="25.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -14291,10 +14700,7 @@ Synthesize Poison (Basic) – If the fighter is Engaged, make a Cool check. If t
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="If a fighter wearing a displacer field is hit, roll a D6. On a 4+, the fighter is moved a number of inches equal to the Strength of the attack in a random direction, determined by rolling a Scatter dice, and the hit is ignored (even if any port of the fighter is still under the template – if the attack used one – after being displaced). A displacer field will not deposit its wearer inside a terrain feature, the fighter will move by the shortest route possible so that it can be placed clear of any impassable terrain features. Similarly, the fighter’s base cannot overlap another fighter’s base and the wearer must be moved by the shortest route possible until its base can be placed without overlapping. Note that the wearer may end up within 1’’ of an enemy fighter and may even end up Engaged as a result of being displaced.
-However, displacer fields are notoriously oblivious to safe footings. In a Zone Mortalis game, a fighter wearing a displacer field may be deposited above a pit fall or similar hazard. In a Sector Mechanicus game, a fighter above ground level may simply be flung into the open air. If any part of the fighter’s base ends overhanging a hazard or overhanging a platform edge, the fighter must pass an initiative test or will fall, following all the rules for falling as required by the terrain type being fought over. If the entirety of the fighter&apos;s base is over a hazard or in the open air, they will simply fall.
-If a fighter wearing a displacer field is transported off the board, they immediately go Out of Action.
-If an attack does not have a Strength value, then a displacer field cannot work against it."/>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="If a fighter wearing a displacer field is hit, roll a D6. On a 4+, the fighter is moved a number of inches equal to the Strength of the attack in a random direction, determined by rolling a Scatter dice, and the hit is ignored (even if any port of the fighter is still under the template – if the attack used one – after being displaced). A displacer field will not deposit its wearer inside a terrain feature, the fighter will move by the shortest route possible so that it can be placed clear of any impassable terrain features. Similarly, the fighter’s base cannot overlap another fighter’s base and the wearer must be moved by the shortest route possible until its base can be placed without overlapping. Note that the wearer may end up within 1’’ of an enemy fighter and may even end up Engaged as a result of being displaced. However, displacer fields are notoriously oblivious to safe footings. In a Zone Mortalis game, a fighter wearing a displacer field may be deposited above a pit fall or similar hazard. In a Sector Mechanicus game, a fighter above ground level may simply be flung into the open air. If any part of the fighter’s base ends overhanging a hazard or overhanging a platform edge, the fighter must pass an initiative test or will fall, following all the rules for falling as required by the terrain type being fought over. If the entirety of the fighter&apos;s base is over a hazard or in the open air, they will simply fall. If a fighter wearing a displacer field is transported off the board, they immediately go Out of Action. If an attack does not have a Strength value, then a displacer field cannot work against it."/>
       </characteristics>
     </profile>
     <profile id="3a6a-8271-7e27-cebe" name="Refractor Field" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
@@ -14303,8 +14709,7 @@ If an attack does not have a Strength value, then a displacer field cannot work 
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="When a fighter wearing a refractor field is hit by an attack, roll a D6. On a 5+ the hit is ignored.
-However, should the field work and the hit be ignored, roll another D6. If the result is a 1, then the field has been overburdened by the attack and its generator is burned out. Remove the refractor field from the fighter’s card, it no longer works."/>
+        <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="When a fighter wearing a refractor field is hit by an attack, roll a D6. On a 5+ the hit is ignored. However, should the field work and the hit be ignored, roll another D6. If the result is a 1, then the field has been overburdened by the attack and its generator is burned out. Remove the refractor field from the fighter’s card, it no longer works."/>
       </characteristics>
     </profile>
     <profile id="9ceb-a2ef-eae3-b7ca" name="Servo harness - full" book="GW3" hidden="false" profileTypeId="62b3-5d5d-4511-6451" profileTypeName="Wargear">
@@ -14377,6 +14782,108 @@ However, should the field work and the hit be ignored, roll another D6. If the r
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="This ganger generates D6+1x10 credits when working the gang’s Turf as a post-battle action."/>
+      </characteristics>
+    </profile>
+    <profile id="26d2-f2fd-5802-e707" name="Polearm" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="E"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="2&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="+1"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Unwieldy, Versatile"/>
+      </characteristics>
+    </profile>
+    <profile id="6d5f-8a2a-70f6-aa7d" name="Bluderbuss - Emperor&apos;s Wrath" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="8&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="12&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Knockback, Pulverize"/>
+      </characteristics>
+    </profile>
+    <profile id="eeea-9140-bfb8-bd94" name="Bluderbuss - Grape shot" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Plentiful, Scattershot"/>
+      </characteristics>
+    </profile>
+    <profile id="ee5e-d79a-1806-4e84" name="Bluderbuss - Purgation shot" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="-"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="T"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="3"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="6+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Blaze, Plentiful"/>
+      </characteristics>
+    </profile>
+    <profile id="252d-ca16-b001-2459" name="Long Rifle" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="24&quot;"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="48&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="+1"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="4"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-1"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="1"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="4+"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Knockback"/>
+      </characteristics>
+    </profile>
+    <profile id="668e-67b5-2693-26be" name="Chainglaive" hidden="false" profileTypeId="b65b-4ec6-9614-814f" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Rng S" characteristicTypeId="6420-b37b-f34f-ba9b" value="E"/>
+        <characteristic name="Rng L" characteristicTypeId="dc06-720b-a3a6-8c3d" value="2&quot;"/>
+        <characteristic name="Acc S" characteristicTypeId="575d-84b7-41cb-bfdb" value="-1"/>
+        <characteristic name="Acc L" characteristicTypeId="06be-d11e-cdbf-1be4" value="-"/>
+        <characteristic name="Str" characteristicTypeId="b60f-bf38-2db3-1ff5" value="S+2"/>
+        <characteristic name="AP" characteristicTypeId="7a01-bbcb-6277-ec22" value="-2"/>
+        <characteristic name="D" characteristicTypeId="5e99-56ec-0b34-0e63" value="2"/>
+        <characteristic name="Ammo" characteristicTypeId="6c4b-e6b7-46ee-0d0f" value="-"/>
+        <characteristic name="Traits" characteristicTypeId="bba1-4dba-91f0-91cd" value="Melee, Unwieldy, Versatile"/>
       </characteristics>
     </profile>
   </sharedProfiles>
