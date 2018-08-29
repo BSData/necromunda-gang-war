@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="22" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Gang War" revision="23" battleScribeVersion="2.01" authorName="Pinecones" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7890,6 +7890,18 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="35d1-a47e-16af-8fb8" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Melee)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -7933,6 +7945,18 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+        </infoLink>
+        <infoLink id="0361-3389-50bd-fc86" name="Unwieldy" hidden="false" targetId="0bd2-6bbb-f3ff-4b9e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Melee)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -9267,6 +9291,20 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="0199-1158-b5c7-e890" name="Long Rifle" hidden="false" targetId="c65d-9790-88a7-279b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="30">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d3ed-7c1d-ee67-415b" name="Rare (10)" hidden="false" collective="false">
@@ -9920,6 +9958,20 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="1838-3876-9152-53da" name="Chainglaive" hidden="false" targetId="2d13-f01d-4359-04d0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="60">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
