@@ -1,6 +1,8 @@
 Necromunda: Gang War
 ====================
 
+[![Join the chat at https://gitter.im/BSData/necromunda-gang-war](https://badges.gitter.im/BSData/necromunda-gang-war.svg)](https://gitter.im/BSData/necromunda-gang-war?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 #### Contents ####
 
 * [Overview][]
