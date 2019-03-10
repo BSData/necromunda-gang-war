@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4cc1-3267-a342-4e5d" name="Chaos Cult" revision="3" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4cc1-3267-a342-4e5d" name="Chaos Cult" revision="4" battleScribeVersion="2.01" authorName="cjo197" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -970,7 +970,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="a51e-acd0-b587-f1a0" name="Non-Sanctioned Psyker" book="Necromunda Rulebook" page="77" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Non-Sanctioned Psykers: Should a psyker with this skill be taken Out of Action, the enemy gang is rewarded a bounty of D3X10 credits at the end of the battle. Should a psyker with this skill be captured and sold to the Guilders, they are worth their full value. Note that when a Hired Gun is captured, they can be sold immediately without the need to attempt a Rescue mission.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -1096,7 +1104,7 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks>
-                        <entryLink id="9930-dcb0-0966-921b" name="Cunning Skills" hidden="false" targetId="fdf4-77c8-9400-9b57" type="selectionEntryGroup">
+                        <entryLink id="2278-86e8-51af-b8f7" name="Savant Skills" hidden="false" targetId="80af-190c-66a8-5752" type="selectionEntryGroup">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -1104,7 +1112,7 @@
                           <constraints/>
                           <categoryLinks/>
                         </entryLink>
-                        <entryLink id="2278-86e8-51af-b8f7" name="Savant Skills" hidden="false" targetId="80af-190c-66a8-5752" type="selectionEntryGroup">
+                        <entryLink id="4722-e63d-a7da-28d5" name="Witch Powers" hidden="false" targetId="af6b-e732-c7f2-c0e7" type="selectionEntryGroup">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -1140,7 +1148,7 @@
                           <constraints/>
                           <categoryLinks/>
                         </entryLink>
-                        <entryLink id="0786-35c7-1dac-5bd0" name="Witch Powers" hidden="false" targetId="af6b-e732-c7f2-c0e7" type="selectionEntryGroup">
+                        <entryLink id="4e6e-9ab3-ef83-969c" name="Cunning Skills" hidden="false" targetId="fdf4-77c8-9400-9b57" type="selectionEntryGroup">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -2259,6 +2267,110 @@
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f4a9-d340-c94b-aaec" name="Assail" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e080-1fa1-14d1-4cc1" name="Assail" hidden="false" targetId="b871-1010-9f06-eae9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="813b-7a43-93d2-080f" name="Chaos Familiar" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="15e8-59ec-1f50-c1c5" name="Chaos Familiar" hidden="false" profileTypeId="5774-f79f-a3b7-e72d" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="6bb5-d80e-a19b-1d1a" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="b63f-b3e0-0943-d7a9" value="4+"/>
+            <characteristic name="BS" characteristicTypeId="0fa7-30b4-4582-f621" value="-"/>
+            <characteristic name="S" characteristicTypeId="aba3-75b1-4a66-c5ed" value="2"/>
+            <characteristic name="T" characteristicTypeId="0358-5ace-b5c0-d69b" value="2"/>
+            <characteristic name="W" characteristicTypeId="ca12-f503-7ae4-42ff" value="1"/>
+            <characteristic name="I" characteristicTypeId="ac2f-586a-f7df-3a8d" value="2+"/>
+            <characteristic name="A" characteristicTypeId="a987-af50-0bb1-fd2a" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="3f60-5808-1589-9540" value="7+"/>
+            <characteristic name="Cl" characteristicTypeId="5eb8-bad4-7afc-b90c" value="7+"/>
+            <characteristic name="Wil" characteristicTypeId="7245-c85d-e087-81fe" value="6+"/>
+            <characteristic name="Int" characteristicTypeId="d87a-5740-fb44-5134" value="7+"/>
+            <characteristic name="Sv" characteristicTypeId="e95c-5198-5d83-5098" value="-"/>
+          </characteristics>
+        </profile>
+        <profile id="8f4e-86d6-fbed-3933" name="Chaos Familiar" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The fighter is accompanied by a Chaos Familiar – a psychic manifestation of their dark patrons. The Familiar is an Exotic Beast as described on page 26 of Gang War Three.
+A Chaos Familiar carries no weapons and will always make unarmed attacks."/>
+          </characteristics>
+        </profile>
+        <profile id="c500-85ee-625b-461c" name="Precognition" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The gift of foresight possessed by the Familiar enables it to dodge and evade all but the most unexpected of attacks. This tremendous precognition grants the Familiar a 3+ save roll, which cannot be modified by Armour Piercing. Additionally, a Familiar may avoid being caught by a Blast marker or Flame template. If a Familiar is caught under a Blast marker or Flame template, the attacker should roll a D6. On a 4-6, the Familiar is hit by the attack. On a 1-3, the Familiar is able to dodge clear of the area of the attack. Leave the model where it is and assume that it has scuttled around to avoid the attack and returned to where it was."/>
+          </characteristics>
+        </profile>
+        <profile id="a475-e8b5-dec3-4ce1" name="Omen of Fortune" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Whilst the Familiar is within 3&quot; of its owner, that fighter may avoid one successful hit per turn by making a successful Willpower check. Make the check immediately after a successful roll to hit has been made against the fighter. If the check is failed, the attack hits as normal. If the check is passed, the attack counts as having missed and the dice roll is discarded. Templates and Blast markers are placed as normal for the purposes of determining hits against other models, but the Familiar’s owner is assumed to have somehow dodged clear."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c16d-97fd-4849-187d" name="Clamber" hidden="false" targetId="204a-5f72-ec96-cf2d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c51e-d97d-aeb9-36df" name="Catfall" hidden="false" targetId="cfbf-d90a-da25-2ab6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3a2-5c75-fdb8-79bd" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Weapon slot" costTypeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+        <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="11e1-1dc0-2316-076e" name="Pistols" hidden="false" collective="false">
@@ -2277,6 +2389,62 @@
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6910-3c82-6206-0481" name="Reclaimed autopistol" hidden="false" targetId="32d5-b21c-d9b0-5414" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a44b-a6e3-6ed2-608d" name="Hand Flamer" hidden="false" targetId="0268-eeed-ed95-176c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="70">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3e6b-fb05-a4da-4f95" name="Laspistol" hidden="false" targetId="cd74-7781-d3f5-1a7a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fabc-fe0d-46ce-12a0" name="Stub Gun" hidden="false" targetId="7b63-7e80-0356-5968" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="5">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2325,6 +2493,34 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1be4-69fb-344a-715d" name="Reclaimed autogun" hidden="false" targetId="7ac2-f00e-0073-91ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aa3b-07f5-8511-86a7" name="Lasgun" hidden="false" targetId="3543-33b8-2d23-60a2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a206-aa05-fe10-d42c" name="Close Combat Weapons" hidden="false" collective="false">
@@ -2342,7 +2538,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15">
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2370,21 +2566,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6996-b87d-fee5-2673" name="Flensing Claw" hidden="false" targetId="1764-3c39-3cf2-7242" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35">
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2413,6 +2595,62 @@
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="20">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2a68-1287-da0a-7865" name="Chainglaive" hidden="false" targetId="2d13-f01d-4359-04d0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="60">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b96e-2844-83d0-c6a4" name="Chainsword" hidden="false" targetId="6b82-6493-bf6f-1ee4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5000-51cc-abf6-6701" name="Two-handed Axe" hidden="false" targetId="d44f-d8ab-d95d-598b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="62dd-f3d8-3d83-6ab2" name="Two-handed Hammer" hidden="false" targetId="ac48-ee45-8e95-00a3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2484,7 +2722,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edf2-ccae-572d-f877" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="567f-3a47-42cc-208a" name="Krak Grenade" hidden="false" targetId="8744-dc35-e915-e11d" type="selectionEntry">
@@ -2498,7 +2738,57 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="921e-2035-5edd-f35a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6bcf-de15-ad6c-1f1c" name="Demolition Charge" hidden="false" targetId="2eb6-8657-d03b-e969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="65">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b27-dd55-cf1f-a148" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="79bc-ad92-cf43-538b" name="Blasting Charge" hidden="false" targetId="10c5-3497-b5c4-375c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a5-1221-0bc2-964c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ae90-bcc5-e6e2-7962" name="Incendiary Charge" hidden="false" targetId="6621-f2ff-d2b7-f129" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="40">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1569-9893-ab3f-1191" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2555,6 +2845,64 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1922-db02-87d5-dbda" name="Hazard Suit" hidden="false" targetId="bffc-5aaa-874d-b46e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="12fc-a4f3-f3ea-66a7" name="Mesh Armour" hidden="false" targetId="8c77-5bd4-b745-d608" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7cb9-37a2-37ca-b042" name="Filter plugs" hidden="false" targetId="9a0a-f1f5-1517-9fcf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c11f-6416-358c-f638" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd74-a2a6-28f7-1c39" name="Chaos Familiar" hidden="false" targetId="813b-7a43-93d2-080f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f057-9eb3-6e5f-be92" name="Demagogue Weapons" hidden="false" collective="false">
@@ -2586,6 +2934,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="e99c-9806-3934-e020" name="Close Combat Weapons" hidden="false" targetId="a206-aa05-fe10-d42c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8fb4-45c6-3296-935f" name="Special Weapons" hidden="false" targetId="c135-32e3-db73-f914" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2640,6 +2996,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="5a76-61a6-124d-e64a" name="Pistols" hidden="false" targetId="11e1-1dc0-2316-076e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e162-4dc3-ab97-1a05" name="Special Weapons" hidden="false" targetId="c135-32e3-db73-f914" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2715,6 +3079,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f074-593f-60bf-23cb" name="Special Weapons" hidden="false" targetId="c135-32e3-db73-f914" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="af6b-e732-c7f2-c0e7" name="Witch Powers" hidden="false" collective="false">
@@ -2774,6 +3146,16 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddab-8729-5365-00f7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="740a-19c3-eb78-7f44" name="Dark Shield" hidden="false" targetId="f4a9-d340-c94b-aaec" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be78-eae5-328c-d5cb" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -2939,6 +3321,60 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="c135-32e3-db73-f914" name="Special Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6a93-024e-eb67-a74b" name="Grenade Launcher" hidden="false" targetId="ac72-264a-b99b-5236" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="55">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="02d7-ae3d-7bcd-0d23" name="Flamer" hidden="false" targetId="be55-8508-6166-ccc3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="130">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2d7b-773b-42b5-c409" name="Long Rifle" hidden="false" targetId="c65d-9790-88a7-279b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="30">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>
   <sharedProfiles>
@@ -2948,7 +3384,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Coruscating balefire erupts from the Witch’s eyes or outstretched hands, engulfing the enemy."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Scouring (Basic), Continuous Effect: Coruscating balefire erupts from the Witch’s eyes or outstretched hands, engulfing the enemy."/>
       </characteristics>
     </profile>
     <profile id="ece8-834b-d967-e5c9" name="Levitation" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -2957,7 +3393,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The Witch rises upon invisible aetheric updrafts, floating just above ground level as they are held aloft by a writhing curtain of warp energy. While the power is active, the witch’s Movement is increased by 2’’ and they ignore pitfalls and gaps (they must still end their move on solid ground). Furthermore, they cannot be Pinned. As the Witch is only levitated a few inches above the ground, this ability does not affect lines of sight or the use of cover."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Levitation (Basic), Continuous Effect: The Witch rises upon invisible aetheric updrafts, floating just above ground level as they are held aloft by a writhing curtain of warp energy. While the power is active, the witch’s Movement is increased by 2’’ and they ignore pitfalls and gaps (they must still end their move on solid ground). Furthermore, they cannot be Pinned. As the Witch is only levitated a few inches above the ground, this ability does not affect lines of sight or the use of cover."/>
       </characteristics>
     </profile>
     <profile id="4561-49aa-4eb0-de9b" name="Warp Strength" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -2966,7 +3402,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The Witch’s skin crackles with corposant as dark power grants them inhuman potency. While this power is active, the Witch’s Strength is increased by 2, and the Damage of any Close Combat attacks they make is increased by 1."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Warp Strength (Simple), Continouous Effect: The Witch’s skin crackles with corposant as dark power grants them inhuman potency. While this power is active, the Witch’s Strength is increased by 2, and the Damage of any Close Combat attacks they make is increased by 1."/>
       </characteristics>
     </profile>
     <profile id="3df8-8e1b-6ecb-837e" name="Dark Shield" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -2975,7 +3411,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Powerful energies envelop the Witch, protecting them and their allies from harm. While this power is active, add 1 to the result of any Save rolls made for the Witch and any other fighters from their gang within 3’’ of them (if they do not have a Save roll, they gain a 6+ Save)."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Dark Shield (Simple): Powerful energies envelop the Witch, protecting them and their allies from harm. While this power is active, add 1 to the result of any Save rolls made for the Witch and any other fighters from their gang within 3’’ of them (if they do not have a Save roll, they gain a 6+ Save)."/>
       </characteristics>
     </profile>
     <profile id="382f-c593-53be-94e4" name="Maddening Visions" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -2984,7 +3420,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Nearby enemies find themselves struck by nightmarish apparitions as the witch becomes a conduit for unfettered warp energy. While this power is active, make a Willpower check for any enemy fighter who ends their turn within 3’’ of the witch. If the check is failed, the fighter is driven temporarily insane. (This can be marked by placing an Insanity marker from the Underhive Perils token sheet on their card). Each subsequent time the fighter is activated, roll a D6: On a 1 or 2, they immediately become Broken – or if they were already Broken, they flee the battlefield (even if their gang has not failed a Bottle test). On a 3 or 4, the opposing player can control that fighter this turn, treating them as part of their gang, for example, they could charge or shoot at another fighter from the insane fighter&apos;s gang, treating them as an enemy. Once the turn is over, the fighter no longer counts as part of the opposing gang. On a 5 or 6, the fighter can act as normal. Once their turn is over, make a Willpower check for them; if it is passed, they regain their sanity and are no longer affected (remove the Insanity marker if one has been used)."/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Maddiening Visions (Basic); Nearby enemies find themselves struck by nightmarish apparitions as the witch becomes a conduit for unfettered warp energy. While this power is active, make a Willpower check for any enemy fighter who ends their turn within 3’’ of the witch. If the check is failed, the fighter is driven temporarily insane. (This can be marked by placing an Insanity marker from the Underhive Perils token sheet on their card). Each subsequent time the fighter is activated, roll a D6: On a 1 or 2, they immediately become Broken – or if they were already Broken, they flee the battlefield (even if their gang has not failed a Bottle test). On a 3 or 4, the opposing player can control that fighter this turn, treating them as part of their gang, for example, they could charge or shoot at another fighter from the insane fighter&apos;s gang, treating them as an enemy. Once the turn is over, the fighter no longer counts as part of the opposing gang. On a 5 or 6, the fighter can act as normal. Once their turn is over, make a Willpower check for them; if it is passed, they regain their sanity and are no longer affected (remove the Insanity marker if one has been used)."/>
       </characteristics>
     </profile>
     <profile id="8e64-2751-3f62-edf2" name="Cult Leader" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -2994,6 +3430,16 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="While this fighter is standing, all other fighters from their gang who are within 9’’ of them use this fighter&apos;s Cool and Willpower characteristics instead of their own when making any checks."/>
+      </characteristics>
+    </profile>
+    <profile id="b871-1010-9f06-eae9" name="Assail" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Assail (Basic): The Cult Witch uses the force of their will to push
+enemies and objects from their path. Immediately make a ranged attack against an enemy fighter within 12&quot; and line of sight. If hit, move the target D3&quot; in any direction – if they were Standing, they become Prone and Pinned after moving. If they come into base contact with a Standing fighter or any terrain, they stop moving and suffer a Strength 3, Damage 1 hit. If they come into base contact with another fighter, that fighter also suffers a Strength 3, Damage 1 hit, and becomes Prone and Pinned."/>
       </characteristics>
     </profile>
   </sharedProfiles>
