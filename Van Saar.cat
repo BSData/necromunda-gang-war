@@ -1665,7 +1665,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="5">
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
